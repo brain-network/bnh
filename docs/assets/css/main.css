@@ -1579,8 +1579,9 @@ button,
   .wrapper.style3 {
     padding-left: 0;
     padding-right: 0; }
-    .wrapper.style3 header {
-      padding-left: 2em; }
+    .wrapper.style3 section {
+      padding-left: 2em;
+      padding-right: 2em; }
 
 /* Header */
 #header {
