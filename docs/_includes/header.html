@@ -1,0 +1,38 @@
+<!-- Header -->
+<div id="header">
+
+    <!-- Inner -->
+    <div class="inner">
+        <header>
+            <h1><a href="index.html" id="logo">NetSci' BNH</a></h1>
+            {% if page.class == "homepage" %}
+            <hr />
+            <p>The first <em>brain networks</em> focused hackathon</p>
+            {% endif %}
+        </header>
+        {% if page.class == "homepage" %}
+        <footer>
+            <a href="#about" class="button circled scrolly">Start</a>
+        </footer>
+        {% endif %}
+    </div>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#projects">Projects</a>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Magna phasellus</a></li>
+                    <li><a href="#">Etiam dolore nisl</a></li>
+                    <li><a href="#">Veroeros feugiat</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#program">Program</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="venue.html">Venue</a></li>
+        </ul>
+    </nav>
+
+</div>
