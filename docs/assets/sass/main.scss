@@ -852,6 +852,17 @@
 		}
 	}
 
+/* Header */
+
+	.banner {
+		height: 40vh;
+		width: 100vw;
+		position: relative;
+		background-image: url('../../images/icm.jpg');
+		background-size: cover;
+		background-position: center bottom;
+	}
+
 /* Sidebar */
 
 	#sidebar > {
