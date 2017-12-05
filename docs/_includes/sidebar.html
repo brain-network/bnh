@@ -1,0 +1,40 @@
+<div class="4u 12u(mobile)" id="sidebar">
+    <hr class="first" />
+    <section>
+        <header>
+            <h3><a href="#">Registration is open!</a></h3>
+        </header>
+        <p>
+            Registration is now open. Only 50 seats are avaible, don't wait before booking your own! We remind you that a financial participation of 50€ is asked to cover food and drinks for the whole weekend.
+        </p>
+        <footer>
+            <a href="registration.html" class="button">Register now</a>
+        </footer>
+    </section>
+    <hr />
+    <section>
+        <header>
+            <h3><a href="#">Last proposed projects</a></h3>
+        </header>
+        <p>
+            Tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+        </p>
+        {% for p in site.data.projects %}
+            <div class="row 50%">
+                <div class="4u">
+                    <a href="#" class="image fit"><img src="{{ p.figure }}" alt="" /></a>
+                </div>
+                <div class="8u">
+                    <h4>{{ p.title }}</h4>
+                    <p style="margin-bottom: 0.25em;">{{ p.short_description }}</p>
+                    <a href="/projects/{{ p.title | slugify }}" class="button small">
+                        <span class="fa fa-plus" <="" span=""></span> details
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+        <footer>
+            <a href="/index.html#projects" class="button">See more</a>
+        </footer>
+    </section>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Brain Networks Hackathon
+title: Brainhack Networks
 class: homepage
 ---
 
@@ -13,10 +13,10 @@ class: homepage
 <!-- Features -->
 <div id="about" class="wrapper style3">
 
-	<section class="container special">
+	<section class="container special" id="more-about">
 
 		<header>
-			<h2>NetSci 2018's <strong>Brain Networks Hackathon</strong></h2>
+			<h2><strong>Brainhack Networks</strong></h2>
 			<p>
 				BNH will be the first of its kind: a hackathon entirely dedicated to <em>brain networks</em>.
 				If you've never heard of it, don't worry. Express tutorials will be given at the very beginning of the event.
@@ -26,7 +26,7 @@ class: homepage
 		<div class="row">
 			<article class="6u 12u(mobile)">
 				<header>
-					<h3><a href="#features">More about</a></h3>
+					<h3><a href="#more-about">More about</a></h3>
 				</header>
 				<p>
 					The theme of the hackathon is "Network Neuroscience" and will broadly cover a variety of topics related to network science tools for neuroscience/imaging research, including code development, data modeling and analysis, as well as results interpretation.
@@ -34,13 +34,13 @@ class: homepage
 				<p>
 					The goal of Brainhack Networks is to bring together researchers with disparate backgrounds from around the world to collaborate on innovative open science projects related to brain networks. While the theme sets the type of projects and presentations of the event, it is not meant to be restrictive. Participants are encouraged to post project ideas via the <a href="registration.html">registration form</a>.
 
-					Please join the the <a href="https://brainhack-slack-invite.herokuapp.com/" class="icon fa-slack"><span class="label">Slack</span>Brainhack Networks Slack channel</a> for updated information on the BrainHack Networks content and to contribute with your own ideas.
+					Please join the the <a href="https://brainhack-slack-invite.herokuapp.com/"><span class="icon fa-slack"></span> Brainhack Networks Slack channel <span class="icon fa-slack"></span></a> for updated information on the BrainHack Networks content and to contribute with your own ideas.
 				</p>
 			</article>
 			<div class="6u 12u(mobile)">
 				<article>
 					<header>
-						<h3><a href="#features">When?</a></h3>
+						<h3><a href="#program"><span class="fa fa-calendar"></span> When?</a></h3>
 					</header>
 					<p>
 						The <strong>Brain Networks Hackathon Networks</strong> will take place just before the International School and Conference on Network Science, <strong>NetSci18</strong>: <strong>June 9-10th, 2018</strong>.
@@ -49,7 +49,7 @@ class: homepage
 				</article>
 				<article>
 					<header>
-						<h3><a href="#features">Where?</a></h3>
+						<h3><a href="venue.html"><span class="fa fa-map-marker"></span> Where?</a></h3>
 					</header>
 					<p>
 						The event will be located inside one of the largest hospital in Europe: the Pitié-Salpêtrière hospital, in Paris, FR. And more precisely at the <a href="http://icm-institute.org">Brain and Spine Institute (ICM)</a>.
@@ -60,8 +60,21 @@ class: homepage
 		</div>
 	</section>
 
-	<section class="container banner">
-
+	<section class="container special banner">
+		<div class="inner">
+			<header>
+				<h2>Newsletter</h2>
+				<p>
+					Be the first on the list!
+				</p>
+			</header>
+			<article>
+				<form>
+					<input placeholder="Email address" type="email"/>
+					<input href="program.html" type="submit" value="Subscribe" />
+				</form>
+			</article>
+		</div>
 	</section>
 
 	<section class="container special">
@@ -98,8 +111,7 @@ class: homepage
 
 <!-- </div> -->
 
-<!-- Carousel -->
-<!-- <div  id="projects" class="wrapper style3"> -->
+<!-- Projects -->
 	<section id="projects" class="carousel special">
 		<header>
 			<h2><a href="#projects">Proposed projects</a></h2>
@@ -109,50 +121,23 @@ class: homepage
 			</p> -->
 		</header>
 		<div class="reel">
-
-			<article>
-				<a href="#" class="image featured"><img src="images/figure1.png" alt="" /></a>
-				<header>
-					<h3><a href="#">Pulvinar sagittis congue</a></h3>
-				</header>
-				<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-			</article>
-
-			<article>
-				<a href="#" class="image featured"><img src="images/figure2.png" alt="" /></a>
-				<header>
-					<h3><a href="#">Fermentum sagittis proin</a></h3>
-				</header>
-				<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-			</article>
-
-			<article>
-				<a href="#" class="image featured"><img src="images/figure3.png" alt="" /></a>
-				<header>
-					<h3><a href="#">Sed quis rhoncus placerat</a></h3>
-				</header>
-				<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-			</article>
-
-			<article>
-				<a href="#" class="image featured"><img src="images/figure4.png" alt="" /></a>
-				<header>
-					<h3><a href="#">Ultrices urna sit lobortis</a></h3>
-				</header>
-				<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-			</article>
-
-			<article>
-				<a href="#" class="image featured"><img src="images/figure5.png" alt="" /></a>
-				<header>
-					<h3><a href="#">Varius magnis sollicitudin</a></h3>
-				</header>
-				<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-			</article>
-
+			{% for p in site.data.projects %}
+				<article>
+					<a href="#{{ p.title | slugify }}" class="image featured">
+						<img src="{{ p.figure }}" alt="" />
+					</a>
+					<header>
+						<h3>
+							<a href="#{{ p.title | slugify }}">{{ p.title }}</a>
+						</h3>
+					</header>
+					<p>{{ p.short_description }}</p>
+				</article>
+        	{% endfor %}
 		</div>
 	</section>
 
+<!-- Program -->
 	<section id="program" class="container special">
 		<!-- <a href="#" class="image featured"><img src="images/.png" alt="" /></a> -->
 		<header>
@@ -162,21 +147,23 @@ class: homepage
 				pulvinar curabitur morbi convallis. Lectus malesuada sed fermentum dolore amet.
 			</p>
 		</header>
-		<article>
-			<p>
-				Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
-				posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
-				sit arcu sociis. Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam
-				mus lacinia lobortis phasellus suscipit. Fermentum lobortis non tristique ante proin sociis accumsan
-				lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum
-				consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue
-				interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia
-				natoque aenean scelerisque.
-			</p>
-			<footer>
-				<a href="program.html" class="button">More Details</a>
-			</footer>
-		</article>
+		<div class="timetable">
+			{% for d in site.data.program.days %}
+				<article>
+					<header>
+						<h3>{{ d.date }}</h3>
+					</header>
+					<ul>
+						{% for s in d.slots %}
+							<li><span>{{ s.begin }} – {{ s.end }}</span> {{ s.title }}</li>
+						{% endfor %}
+					</ul>
+				</article>
+			{% endfor %}
+		</div>
+		<footer>
+			<a href="program.html" class="button">More details</a>
+		</footer>
 	</section>
 
 </div>

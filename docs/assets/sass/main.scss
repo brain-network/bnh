@@ -56,7 +56,7 @@
 /* Basic */
 
 	body {
-		background: #f0f4f4;
+		background: #483949;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -519,6 +519,11 @@
 				background: #3B353C;
 			}
 		}
+
+		&.small {
+			font-size: 0.75em;
+			padding: 0.1em 0.5em 0.1em 0.5em;
+		}
 	}
 
 /* Post */
@@ -855,12 +860,39 @@
 /* Header */
 
 	.banner {
-		height: 40vh;
+		height: 70vh;
 		width: 100vw;
 		position: relative;
 		background-image: url('../../images/icm.jpg');
 		background-size: cover;
 		background-position: center bottom;
+		background-attachment: fixed;
+		text-align: center;
+
+
+		input {
+			margin: 20px 0;
+			text-align: center;
+		}
+
+		&:before {
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			height: 100%;
+		}
+
+		.inner {
+			position: relative;
+			z-index: 1;
+			margin: 0;
+			display: inline-block;
+			vertical-align: middle;
+
+			header * {
+				color: white;
+			}
+		}
 	}
 
 /* Sidebar */
@@ -1295,6 +1327,12 @@
 				padding: 0;
 				line-height: 3em;
 				width: 100%;
+
+				&.small {
+					display: inline-block;
+					width: auto;
+					line-height: unset;
+				}
 			}
 
 		/* Off-Canvas Navigation */
@@ -1334,7 +1372,7 @@
 						-moz-osx-font-smoothing: grayscale;
 						content: '\f0c9';
 						color: #fff;
-						color: rgba(255, 255, 255, 0.75);
+						color: #000;
 						text-align: center;
 						display: block;
 						font-size: 14px;
@@ -1344,7 +1382,7 @@
 						position: absolute;
 						left: 50%;
 						margin-left: -40px;
-						background: rgba(132, 128, 136, 0.75);
+						background: #a3fca1;
 						border-top: 0;
 						border-radius: 0 0 0.35em 0.35em;
 					}
@@ -1357,13 +1395,15 @@
 				@include vendor('transition', ('transform #{_duration(navPanel)} ease'));
 				display: block;
 				height: _size(navPanel);
+				border-radius: 0 0 1em 1em;
+				padding: 1em;
 				left: 0;
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
 				width: 100%;
 				z-index: _misc(z-index-base) + 2;
-				background: #000;
+				background: rgba(72, 57, 73, 0.95);
 				box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
 				font-size: 1em;
 
@@ -1432,7 +1472,7 @@
 			body {
 				&.navPanel-visible {
 					#page-wrapper {
-						@include vendor('transform', 'translateY(#{_size(navPanel)})');
+						// @include vendor('transform', 'translateY(#{_size(navPanel)})');
 					}
 
 					#navButton {

@@ -1,0 +1,23 @@
+days:
+
+    - date: Saturday, June 9th 2017
+      slots:
+        - title: Coding
+          description: Type on your keyboard
+          begin: "8:00"
+          end: "9:00"
+        - title: Hacking
+          description: Hurt your keyboard
+          begin: "9:00"
+          end: "11:00"
+
+    - date: Sunday, June 10th 2017
+      slots:
+        - title: Coding
+          description: Type on your keyboard
+          begin: "8:00"
+          end: "9:00"
+        - title: Hacking
+          description: Hurt on your keyboard
+          begin: "9:00"
+          end: "11:00"

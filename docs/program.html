@@ -1,6 +1,41 @@
 ---
 layout: left-sidebar
-title: BNH - Program
+title: Brainhack Nets - Program
 ---
 
-Detailed program coming soon...
+<section class="container">
+
+    <header>
+        <h2>Detailed Program</h2>
+    </header>
+
+    {% for d in site.data.program.days %}
+        <article>
+            <header>
+                <h3>{{ d.date }}</h3>
+            </header>
+            <table>
+                <!-- <thead>
+                    <tr>
+                        <td>Time</td>
+                        <td>Title & Description</td>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    {% for s in d.slots %}
+                        <tr>
+                            <td>{{ s.begin }} – {{ s.end }}</td>
+                            <td>
+                                <h4>{{ s.title }}</h4>
+                                <p>
+                                    {{ s.description }}
+                                </p>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </article>
+    {% endfor %}
+
+</section>
