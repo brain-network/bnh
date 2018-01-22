@@ -32,7 +32,7 @@ class: homepage
 					The theme of the hackathon is "Network Neuroscience" and will broadly cover a variety of topics related to network science tools for neuroscience/imaging research, including code development, data modeling and analysis, as well as results interpretation.
 				</p>
 				<p>
-					The goal of Brainhack Networks is to bring together researchers with disparate backgrounds from around the world to collaborate on innovative open science projects related to brain networks. While the theme sets the type of projects and presentations of the event, it is not meant to be restrictive. Participants are encouraged to post project ideas via the <a href="registration.html">registration form</a>.
+					The goal of Brainhack Networks is to bring together researchers with disparate backgrounds from around the world to collaborate on innovative open science projects related to brain networks. While the theme sets the type of projects and presentations of the event, it is not meant to be restrictive. Participants are encouraged to post project ideas via the <a href="/registration">registration form</a>.
 
 					Please join the the <a href="https://brainhack-slack-invite.herokuapp.com/"><span class="icon fa-slack"></span> Brainhack Networks Slack channel <span class="icon fa-slack"></span></a> for updated information on the BrainHack Networks content and to contribute with your own ideas.
 				</p>
@@ -49,32 +49,40 @@ class: homepage
 				</article>
 				<article>
 					<header>
-						<h3><a href="venue.html"><span class="fa fa-map-marker"></span> Where?</a></h3>
+						<h3><a href="/venue"><span class="fa fa-map-marker"></span> Where?</a></h3>
 					</header>
 					<p>
 						The event will be located inside one of the largest hospital in Europe: the Pitié-Salpêtrière hospital, in Paris, FR. And more precisely at the <a href="http://icm-institute.org">Brain and Spine Institute (ICM)</a>.
 					</p>
-					<a href="venue.html">Check out the venue</a>
+					<a href="/venue">Check out the venue</a>
 				</article>
 			</div>
 		</div>
 	</section>
 
 	<section class="container special banner">
-		<div class="inner">
+		<div class="inner" id="mc_embed_signup">
 			<header>
 				<h2>Newsletter</h2>
 				<p>
 					Be the first on the list!
 				</p>
 			</header>
-			<article>
-				<form>
-					<input placeholder="Email address" type="email"/>
-					<input href="program.html" type="submit" value="Subscribe" />
-				</form>
-			</article>
+			<form action="https://github.us17.list-manage.com/subscribe/post?u=c3fe76f9a502de4a86835f494&amp;id=e46558ce2c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll">
+					<div class="mc-field-group">
+						<input type="email" placeholder="Email address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c3fe76f9a502de4a86835f494_e46558ce2c" tabindex="-1" value=""></div>
+				    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			    </div>
+			</form>
 		</div>
+		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='BIRTHDAY';ftypes[3]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 	</section>
 
 	<section class="container special">
@@ -162,7 +170,7 @@ class: homepage
 			{% endfor %}
 		</div>
 		<footer>
-			<a href="program.html" class="button">More details</a>
+			<a href="/program" class="button">More details</a>
 		</footer>
 	</section>
 
