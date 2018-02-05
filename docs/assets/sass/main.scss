@@ -266,8 +266,12 @@
 
 			img {
 				margin: 0 auto;
-				width: auto;
+				// width: auto;
 			}
+		}
+
+		&.circled {
+			border-radius: 100%;
 		}
 	}
 

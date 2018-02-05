@@ -1351,8 +1351,9 @@ footer {
     display: block;
     margin: 0 0 2em 0; }
     .image.centered img {
-      margin: 0 auto;
-      width: auto; }
+      margin: 0 auto; }
+  .image.circled {
+    border-radius: 100%; }
 
 /* List */
 ul.default {

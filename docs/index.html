@@ -174,4 +174,29 @@ class: homepage
 		</footer>
 	</section>
 
+	<section class="container special" id="more-about">
+
+		<header>
+			<h2>Experts team</h2>
+			<p>
+				A full team of experts in the field will be here to advise and guide you.
+			</p>
+		</header>
+
+		<div class="row">
+			{% for e in site.data.experts %}
+				<article class="2u 6u(mobile) special" id="{{ e.last_name | slugify }}">
+					<a href="#{{ e.last_name | slugify }}" class="image centered"><img class="image circled" src="{{ e.picture }}" alt="portrait" /></a>
+					<header>
+						<h3><a href="{{ e.website }}">{{ e.first_name }} {{ e.last_name }}</a></h3>
+					</header>
+					<p>
+						{{ e.description }}
+					</p>
+				</article>
+			{% endfor %}
+		</div>
+
+	</section>
+
 </div>
