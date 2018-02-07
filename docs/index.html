@@ -148,7 +148,7 @@ class: homepage
 		<header>
 			<h2><a href="#projects">Projects</a></h2>
 			<p>
-				Here is a list of already proposed projects. If you want to propose your, please fill in <a>this form</a>.
+				Here is a list of already proposed projects. If you want to propose yours, please fill in <a>this form</a>.
 			</p>
 		</header>
 		<div class="reel">
@@ -173,9 +173,7 @@ class: homepage
 		<!-- <a href="#" class="image featured"><img src="images/.png" alt="" /></a> -->
 		<header>
 			<h2><a href="#program">Program</a></h2>
-			<p>
-				Check out the details and timeline of the event.
-			</p>
+
 		</header>
 		<div class="timetable">
 			{% for d in site.data.program.days %}
@@ -198,10 +196,6 @@ class: homepage
 
 <!-- Experts -->
 	<section class="container special trombinoscope" id="experts">
-
-		<header>
-			<h2>Organizing committee</h2>
-		</header>
 
 		<div class="row">
 			<div class="6u 6u(mobile)">
@@ -226,7 +220,7 @@ class: homepage
 			<div class="6u 6u(mobile)">
 				<div class="row">
 					<header>
-						<h2>Local staff</h2>
+						<h2>Local organization</h2>
 					</header>
 					{% for e in site.data.experts.organizers %}
 						<article class="special" id="{{ e.last_name | slugify }}">
