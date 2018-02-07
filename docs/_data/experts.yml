@@ -1,5 +1,100 @@
-- first_name: Fabrizio
-  last_name: De Vico Fallani
-  website:
-  description: Lorem ipsum sit amet...
-  picture: images/fabrizio.jpg
+chairs:
+
+    - first_name: Fabrizio
+      last_name: De Vico Fallani
+      affiliation: Inria & ICM, France
+      website:
+      picture: images/fabrizio.jpeg
+
+    - first_name: Daniele
+      last_name: Marinazzo
+      affiliation: Ghent University, Belgium
+
+organizers:
+
+    - first_name: Jeremy
+      last_name: Guillon
+      affiliation: UPMC & ICM, France
+      website: http://guillonjeremy.co
+      picture:
+
+    - first_name: Emmanuelle
+      last_name: Mauduit
+      affiliation: ICM, France
+      website:
+      picture:
+
+
+experts:
+
+    - first_name: Vincenzo
+      last_name: Nicosia
+      affiliation: Queen Mary Universtiy, UK
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Manlio
+      last_name: De Domenico
+      affiliation: Fondazione Bruno Kessler, Italy
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Rick
+      last_name: Betzel
+      affiliation: Penn University, US
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Andrea
+      last_name: Avena
+      affiliation: Indiana University, US
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Joaquin
+      last_name: Goni
+      affiliation: Purdue University, US
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Enrico
+      last_name: Amico
+      affiliation: Purdue University, US
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Roberto
+      last_name: Toro
+      affiliation: Institut Pasteur, France
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Guillame
+      last_name: Dumas
+      affiliation: Institut Pasteur, France
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Michel
+      last_name: Thibaut De Schotten
+      affiliation: CNRS & ICM, France
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Daniel
+      last_name: Margulies
+      affiliation: CNRS & ICM, France
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Katja
+      last_name: Heuer
+      affiliation: Max Planck Institute, Germany
+      website: http://scholar.google.com/
+      picture:
+
+    - first_name: Natalia
+      last_name: Bielczyk
+      affiliation: Radboud University, Netherlands
+      website: http://scholar.google.com/
+      picture:

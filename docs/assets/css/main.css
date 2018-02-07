@@ -1279,6 +1279,9 @@ p {
 br.clear {
   clear: both; }
 
+span.small {
+  font-size: small; }
+
 hr {
   position: relative;
   display: block;
@@ -1695,7 +1698,7 @@ body.homepage.is-loading #header:after {
       top: 50%;
       margin-top: -2px;
       height: 5px;
-      border-top: solid 1px rgba(255, 192, 192, 0.35);
+      border-top: solid 1px rgba(192, 192, 192, 0.35);
       border-bottom: solid 1px rgba(192, 192, 192, 0.35); }
     #nav > ul:before {
       left: 100%;
@@ -1849,6 +1852,14 @@ body.homepage.is-loading #header:after {
       color: rgba(128, 128, 128, 0.75); }
       #footer .copyright a:hover {
         color: rgba(212, 212, 212, 0.85); }
+
+/* Trombinoscope */
+.trombinoscope header {
+  width: 100%; }
+.trombinoscope article {
+  height: 300px; }
+.trombinoscope h2 {
+  font-size: 1.85em; }
 
 /* Carousel */
 .carousel {

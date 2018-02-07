@@ -2,14 +2,30 @@ days:
 
     - date: Saturday, June 9th 2017
       slots:
+        - title: Introduction
+          description: Welcoming and description of the week-end
+          begin: "9:00"
+          end: "9:15"
+        - title: Ignite talk 1
+          description: Title to be confirmed
+          begin: "9:15"
+          end: "10:15"
+        - title: Ignite talk 2
+          description: Title to be confirmed
+          begin: "10:15"
+          end: "11:15"
         - title: Coding
           description: Type on your keyboard
-          begin: "8:00"
-          end: "9:00"
-        - title: Hacking
-          description: Hurt your keyboard
-          begin: "9:00"
-          end: "11:00"
+          begin: "11:15"
+          end: "13:00"
+        - title: Lunch
+          description: French buffet, sandwiches or pizzas
+          begin: "11:15"
+          end: "13:00"
+        - title: Coding
+          description: Hit your keyboard
+          begin: "14:00"
+          end: "20:00"
 
     - date: Sunday, June 10th 2017
       slots:
@@ -17,7 +33,11 @@ days:
           description: Type on your keyboard
           begin: "8:00"
           end: "9:00"
-        - title: Hacking
+        - title: Coding
           description: Hurt on your keyboard
           begin: "9:00"
           end: "11:00"
+        - title: Coding
+          description: Finish your keyboard
+          begin: "8:00"
+          end: "9:00"
