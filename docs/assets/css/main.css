@@ -1857,9 +1857,19 @@ body.homepage.is-loading #header:after {
 .trombinoscope header {
   width: 100%; }
 .trombinoscope article {
-  height: 300px; }
-.trombinoscope h2 {
+  height: 300px;
+  text-align: center; }
+  .trombinoscope article > p {
+    text-align: center; }
+.trombinoscope > div header h2 {
   font-size: 1.85em; }
+.trombinoscope a.image {
+  display: inline-block;
+  width: 150px;
+  height: 150px; }
+  .trombinoscope a.image > img {
+    min-height: 100%;
+    overflow: hidden; }
 
 /* Carousel */
 .carousel {

@@ -131,8 +131,6 @@ class: homepage
 		</div>
 	</section>
 
-<!-- </div> -->
-
 <!-- Projects -->
 	<section id="projects" class="carousel special">
 		<header>
@@ -145,7 +143,7 @@ class: homepage
 			{% for p in site.data.projects %}
 				<article>
 					<a href="#{{ p.title | slugify }}" class="image featured">
-						<img src="{{ p.figure }}" alt="" />
+						<img src="{{ p.figure }}" alt="figure of {{ p.title }}" />
 					</a>
 					<header>
 						<h3>
@@ -187,6 +185,7 @@ class: homepage
 		</footer>
 	</section>
 
+<!-- Experts -->
 	<section class="container special trombinoscope" id="experts">
 
 		<header>
@@ -197,37 +196,43 @@ class: homepage
 		</header>
 
 		<div class="row">
-			<header>
-				<h2>Chairs</h2>
-			</header>
-			{% for e in site.data.experts.chairs %}
-				<article class="2u 6u(mobile) special" id="{{ e.last_name | slugify }}">
-					<a href="#{{ e.last_name | slugify }}" class="image centered"><img class="image circled" src="{{ e.picture }}" alt="portrait" /></a>
+			<div class="6u 6u(mobile)">
+				<div class="row">
 					<header>
-						<h3><a href="{{ e.website }}">{{ e.first_name }} {{ e.last_name }}</a></h3>
+						<h2>Program chairs</h2>
 					</header>
-					<p>
-						{{ e.affiliation }}
-					</p>
-				</article>
-			{% endfor %}
-		</div>
+					{% for e in site.data.experts.chairs %}
+						<article class="special" id="{{ e.last_name | slugify }}">
+							<a href="#{{ e.last_name | slugify }}" class="image centered"><img class="image circled" src="{{ e.picture }}" alt="portrait" /></a>
+							<header>
+								<h3><a href="{{ e.website }}">{{ e.first_name }} {{ e.last_name }}</a></h3>
+							</header>
+							<p>
+								{{ e.affiliation }}
+							</p>
+						</article>
+					{% endfor %}
+				</div>
+			</div>
 
-		<div class="row">
-			<header>
-				<h2>Local organizers</h2>
-			</header>
-			{% for e in site.data.experts.organizers %}
-				<article class="2u 6u(mobile) special" id="{{ e.last_name | slugify }}">
-					<a href="#{{ e.last_name | slugify }}" class="image centered"><img class="image circled" src="{{ e.picture }}" alt="portrait" /></a>
+			<div class="6u 6u(mobile)">
+				<div class="row">
 					<header>
-						<h3><a href="{{ e.website }}">{{ e.first_name }} {{ e.last_name }}</a></h3>
+						<h2>Local organizers</h2>
 					</header>
-					<p>
-						{{ e.affiliation }}
-					</p>
-				</article>
-			{% endfor %}
+					{% for e in site.data.experts.organizers %}
+						<article class="special" id="{{ e.last_name | slugify }}">
+							<a href="#{{ e.last_name | slugify }}" class="image centered"><img class="image circled" src="{{ e.picture }}" alt="portrait" /></a>
+							<header>
+								<h3><a href="{{ e.website }}">{{ e.first_name }} {{ e.last_name }}</a></h3>
+							</header>
+							<p>
+								{{ e.affiliation }}
+							</p>
+						</article>
+					{% endfor %}
+				</div>
+			</div>
 		</div>
 
 		<div class="row">

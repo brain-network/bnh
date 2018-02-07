@@ -986,9 +986,23 @@
 		}
 		article {
 			height: 300px;
+			text-align: center;
+			> p {
+				text-align: center;
+			}
 		}
-		h2 {
+		> div header h2 {
 			font-size: 1.85em;
+		}
+		a.image {
+			// height: 150px;
+			display: inline-block;
+			width: 150px;
+			height: 150px;
+			> img {
+				min-height: 100%;
+				overflow: hidden;
+			}
 		}
 	}
 
