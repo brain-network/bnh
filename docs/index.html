@@ -148,7 +148,7 @@ class: homepage
 		<header>
 			<h2><a href="#projects">Projects</a></h2>
 			<p>
-				Here is a list of already proposed projects. If you want to propose yours, please fill in <a>this form</a>.
+				Here is a list of already proposed projects. If you want to propose yours, please fill in <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">this form </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>.
 			</p>
 		</header>
 		<div class="reel">
@@ -175,9 +175,9 @@ class: homepage
 			<h2><a href="#program">Program</a></h2>
 
 		</header>
-		<div class="timetable">
+		<div class="row timetable">
 			{% for d in site.data.program.days %}
-				<article>
+				<article class="6u 12u(mobile)">
 					<header>
 						<h3>{{ d.date }}</h3>
 					</header>
