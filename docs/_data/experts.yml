@@ -41,14 +41,14 @@ experts:
       website: http://scholar.google.com/
       picture: images/experts/dedomenico.png
 
-    - first_name: Rick
+    - first_name: Richard
       last_name: Betzel
       affiliation: Penn University, US
       website: http://scholar.google.com/
       picture: images/experts/betzel.jpg
 
     - first_name: Andrea
-      last_name: Avena
+      last_name: Avena-Koenisberg
       affiliation: Indiana University, US
       website: http://scholar.google.com/
       picture: images/experts/avena.png
@@ -71,7 +71,7 @@ experts:
       website: http://scholar.google.com/
       picture: images/experts/toro.jpg
 
-    - first_name: Guillame
+    - first_name: Guillaume
       last_name: Dumas
       affiliation: Institut Pasteur, France
       website: http://scholar.google.com/
