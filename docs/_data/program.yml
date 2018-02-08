@@ -39,6 +39,9 @@ days:
           begin: "14:00"
           end: "20:00"
         - title: Social dinner
+          description: Hit your keyboard
+          begin: "20:00"
+          end: "-"
 
     - date: Sunday, June 10th 2017
       slots:
