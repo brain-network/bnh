@@ -994,14 +994,29 @@
 		> div header h2 {
 			font-size: 1.85em;
 		}
-		a.image {
-			// height: 150px;
+		.frame {
 			display: inline-block;
+			text-align: center;
+			max-width: 12vw;
+			max-height: 12vw;
 			width: 150px;
 			height: 150px;
-			> img {
+		}
+		.crop {
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+
+			img {
+				display: block;
+				min-width: 100%;
 				min-height: 100%;
-				overflow: hidden;
+				margin: auto;
+				position: absolute;
+				top: -100%;
+				right: -100%;
+				bottom: -100%;
+				left: -100%;
 			}
 		}
 	}

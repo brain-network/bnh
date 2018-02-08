@@ -110,9 +110,9 @@ class: homepage
 					<h3><a href="#features">Propose your project</a></h3>
 				</header>
 				<p>
-					Do you need more brains & hands to realize your project? 
-					Do you feel your data have something to say but don't know how to make them talk? 
-					Submit your project and get people involved! 
+					Do you need more brains & hands to realize your project?
+					Do you feel your data have something to say but don't know how to make them talk?
+					Submit your project and get people involved!
 					You will have the unique opportunity to be assisted by our team of experts.
 				</p>
 			</article>
@@ -122,10 +122,10 @@ class: homepage
 					<h3><a href="#features">Share your kowledge</a></h3>
 				</header>
 				<p>
-					You don't have a specific project, but you are interested in 
-					network neuroscience and wanted to know how does it work in practice? 
+					You don't have a specific project, but you are interested in
+					network neuroscience and wanted to know how does it work in practice?
 					Join us and share your expertise in any related domain (eg, data viz)!
-					We will provide data and tools to free your creativity!	
+					We will provide data and tools to free your creativity!
 				</p>
 			</article>
 			<article class="4u 12u(mobile) special">
@@ -134,9 +134,9 @@ class: homepage
 					<h3><a href="#features">Hack brain networks</a></h3>
 				</header>
 				<p>
-					If you love developing and optimizing code and pipelines, then you are in 
-					the right place! Our community has a tremendous need of deploying efficient 
-					software to model and analyze large heterogeneous datasets. Come join and 
+					If you love developing and optimizing code and pipelines, then you are in
+					the right place! Our community has a tremendous need of deploying efficient
+					software to model and analyze large heterogeneous datasets. Come join and
 					hack with us!
 				</p>
 			</article>
@@ -204,8 +204,12 @@ class: homepage
 						<h2>Program chairs</h2>
 					</header>
 					{% for e in site.data.experts.chairs %}
-						<article class="special" id="{{ e.last_name | slugify }}">
-							<a href="#{{ e.last_name | slugify }}" class="image centered"><img class="image circled" src="{{ e.picture }}" alt="portrait" /></a>
+						<article class="special 6u" id="{{ e.last_name | slugify }}">
+							<div class="frame">
+								<a href="#{{ e.last_name | slugify }}" class="image circled centered crop">
+									<img class="image" src="{{ e.picture }}" alt="portrait" />
+								</a>
+							</div>
 							<header>
 								<h3><a href="{{ e.website }}">{{ e.first_name }} {{ e.last_name }}</a></h3>
 							</header>
@@ -223,8 +227,12 @@ class: homepage
 						<h2>Local organization</h2>
 					</header>
 					{% for e in site.data.experts.organizers %}
-						<article class="special" id="{{ e.last_name | slugify }}">
-							<a href="#{{ e.last_name | slugify }}" class="image centered"><img class="image circled" src="{{ e.picture }}" alt="portrait" /></a>
+					<article class="special 6u" id="{{ e.last_name | slugify }}">
+							<div class="frame">
+								<a href="#{{ e.last_name | slugify }}" class="image circled centered crop">
+									<img class="image" src="{{ e.picture }}" alt="portrait" />
+								</a>
+							</div>
 							<header>
 								<h3><a href="{{ e.website }}">{{ e.first_name }} {{ e.last_name }}</a></h3>
 							</header>
@@ -243,7 +251,11 @@ class: homepage
 			</header>
 			{% for e in site.data.experts.experts %}
 				<article class="2u 6u(mobile) special" id="{{ e.last_name | slugify }}">
-					<a href="#{{ e.last_name | slugify }}" class="image centered"><img class="image circled" src="{{ e.picture }}" alt="portrait" /></a>
+					<div class="frame">
+						<a href="#{{ e.last_name | slugify }}" class="image circled centered crop">
+							<img class="image" src="{{ e.picture }}" alt="portrait" />
+						</a>
+					</div>
 					<header>
 						<h3><a href="{{ e.website }}">{{ e.first_name }} {{ e.last_name }}</a></h3>
 					</header>

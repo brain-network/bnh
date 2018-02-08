@@ -51,31 +51,31 @@ experts:
       last_name: Avena
       affiliation: Indiana University, US
       website: http://scholar.google.com/
-      picture: images/experts/
+      picture: images/experts/avena.png
 
     - first_name: Joaquin
       last_name: Goni
       affiliation: Purdue University, US
       website: http://scholar.google.com/
-      picture: images/experts/
+      picture: images/experts/goni.jpg
 
     - first_name: Enrico
       last_name: Amico
       affiliation: Purdue University, US
       website: http://scholar.google.com/
-      picture: images/experts/
+      picture: images/experts/amico.jpg
 
     - first_name: Roberto
       last_name: Toro
       affiliation: Institut Pasteur, France
       website: http://scholar.google.com/
-      picture: images/experts/
+      picture: images/experts/toro.jpg
 
     - first_name: Guillame
       last_name: Dumas
       affiliation: Institut Pasteur, France
       website: http://scholar.google.com/
-      picture: images/experts/
+      picture: images/experts/dumas.jpg
 
     - first_name: Michel
       last_name: Thibaut De Schotten
@@ -87,16 +87,16 @@ experts:
       last_name: Margulies
       affiliation: CNRS & ICM, France
       website: http://scholar.google.com/
-      picture: images/experts/
+      picture: images/experts/margulies.jpg
 
     - first_name: Katja
       last_name: Heuer
       affiliation: Max Planck Institute, Germany
       website: http://scholar.google.com/
-      picture: images/experts/
+      picture: images/experts/heuer.jpg
 
     - first_name: Natalia
       last_name: Bielczyk
       affiliation: Radboud University, Netherlands
       website: http://scholar.google.com/
-      picture: images/experts/
+      picture: images/experts/bielczyk.jpg
