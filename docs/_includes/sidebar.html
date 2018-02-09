@@ -2,23 +2,20 @@
     <hr class="first" />
     <section>
         <header>
-            <h3><a href="#">Registration is open!</a></h3>
+            <h3>Registration is open!</h3>
         </header>
         <p>
-            Registration is now open. Only 50 seats are avaible, don't wait before booking your own! We remind you that a financial participation of 50€ is asked to cover food and drinks for the whole weekend.
+            Registration is now open. Seats are limited, <strong>don't wait before booking your own!</strong> We remind you that a financial participation of <strong>50,00€</strong> is asked to cover breakfasts, lunches and more during the weekend.
         </p>
         <footer>
-            <a href="registration" class="button">Register now</a>
+            <a href="/registration" class="button">Register now</a>
         </footer>
     </section>
     <hr />
     <section>
         <header>
-            <h3><a href="#">Last proposed projects</a></h3>
+            <h3><a href="#">Latest projects</a></h3>
         </header>
-        <p>
-            Tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-        </p>
         {% for p in site.data.projects %}
             <div class="row 50%">
                 <div class="4u">
@@ -27,14 +24,14 @@
                 <div class="8u">
                     <h4>{{ p.title }}</h4>
                     <p style="margin-bottom: 0.25em;">{{ p.short_description }}</p>
-                    <a href="/projects/{{ p.title | slugify }}" class="button small">
+                    <!-- <a href="/projects/{{ p.title | slugify }}" class="button small">
                         <span class="fa fa-plus" <="" span=""></span> details
-                    </a>
+                    </a> -->
                 </div>
             </div>
         {% endfor %}
         <footer>
-            <a href="/index.html#projects" class="button">See more</a>
+            <a href="/#projects" class="button">See more</a>
         </footer>
     </section>
 </div>

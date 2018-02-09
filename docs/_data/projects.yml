@@ -1,4 +1,4 @@
-- title: Example
-  short_description: Coming soon...
+- title: Project title example
+  short_description: Waiting for your proposals! <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">Click here</a> to propose your own.<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script>
   description: Lorem ipsum sit amet...
   figure: images/projects/figure5.png

@@ -30,13 +30,13 @@ class: homepage
 					<h3><a href="#more-about">More about</a></h3>
 				</header>
 				<p>
-					The Brainhack Networks is an indipendent event sponsored by the organizing committee of the Network Neuroscience satellite of the International School and Conference on Network Science (NetSci 2018).  
+					The Brainhack Networks is an indipendent event sponsored by the organizing committee of the Network Neuroscience satellite of the International School and Conference on Network Science (NetSci 2018).
 				</p>
-				
+
 				<p>
 					The theme of the hackathon will broadly cover a variety of topics related to network science tools for neuroscience/imaging research, including code development, data modeling and analysis, as well as results interpretation.
 				</p>
-				
+
 				<p>
 					The goal is to bring together researchers with disparate backgrounds from around the world to collaborate on innovative open science projects related to brain networks, or connectomes. While the theme sets the type of projects and presentations of the event, it is not meant to be restrictive. Participants are encouraged to post project ideas before via the <a href="#projects">dedicated form</a>.
 				</p>
@@ -153,19 +153,19 @@ class: homepage
 		<header>
 			<h2><a href="#projects">Projects</a></h2>
 			<p>
-				Here is a list of already proposed projects. If you want to propose yours, please fill out <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">this form </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>.
+				Here is a list of already proposed projects. If you want to propose yours, please fill out <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">this form</a>.
+				<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+				</script>
 			</p>
 		</header>
 		<div class="reel">
 			{% for p in site.data.projects %}
 				<article>
-					<a href="#{{ p.title | slugify }}" class="image featured">
+					<div class="image featured">
 						<img src="{{ p.figure }}" alt="figure of {{ p.title }}" />
-					</a>
+					</div>
 					<header>
-						<h3>
-							<a href="#{{ p.title | slugify }}">{{ p.title }}</a>
-						</h3>
+						<h3>{{ p.title }}</h3>
 					</header>
 					<p>{{ p.short_description }}</p>
 				</article>
