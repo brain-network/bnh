@@ -3,7 +3,7 @@ days:
     - date: Saturday, June 9th 2017
       slots:
         - title: Registration and breakfast
-          description: Welcoming and description of the week-end
+          description: Pick-up your badge and enjoy some coffee and french vienoiseries
           begin: "9:00"
           end: "9:30"
         - title: Welcome and Introduction
@@ -11,27 +11,27 @@ days:
           begin: "9:30"
           end: "10:00"
         - title: Ignite talk 1
-          description: Title to be confirmed
+          description: Speaker to be confirmed - <i>Title to be confirmed</i>
           begin: "10:00"
           end: "10:45"
         - title: Ignite talk 2
-          description: Title to be confirmed
+          description: Speaker to be confirmed - <i>Title to be confirmed</i>
           begin: "10:45"
           end: "11:30"
         - title: Coffee break
-          description: Type on your keyboard
+          description: Get ready to start arround a cup of coffee
           begin: "11:30"
           end: "11:50"
         - title: Project pitches
-          description: Type on your keyboard
+          description: Pitch your project in few minutes
           begin: "11:50"
           end: "12:20"
         - title: Hacking setup
-          description: French buffet, sandwiches or pizzas
+          description: Time to organize your team and setup your laptops
           begin: "12:20"
           end: "13:00"
         - title: Lunch
-          description: French buffet, sandwiches or pizzas
+          description: Get some strength, menu to be confirmed
           begin: "13:00"
           end: "14:00"
         - title: Hacking
@@ -39,22 +39,22 @@ days:
           begin: "14:00"
           end: "20:00"
         - title: Social dinner
-          description: Hit your keyboard
+          description: 
           begin: "20:00"
-          end: "-"
+          end: "N/A"
 
     - date: Sunday, June 10th 2017
       slots:
         - title: Breakfast
-          description: Type on your keyboard
+          description:
           begin: "9:00"
           end: "9:30"
         - title: Hacking
-          description: Hurt on your keyboard
+          description: Hurt your keyboard
           begin: "9:30"
           end: "13:00"
         - title: Lunch
-          description: Hurt on your keyboard
+          description: Menu to be confirmed
           begin: "13:30"
           end: "14:00"
         - title: Hacking
@@ -62,10 +62,10 @@ days:
           begin: "14:00"
           end: "18:00"
         - title: Project wrap-ups
-          description: Finish your keyboard
+          description: Short presentations of results or advances of your project
           begin: "18:00"
           end: "19:00"
         - title: Discussion and closing
-          description: Finish your keyboard
+          description:
           begin: "19:00"
           end: "20:00"
