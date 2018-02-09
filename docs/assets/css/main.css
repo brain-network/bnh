@@ -1857,33 +1857,28 @@ body.homepage.is-loading #header:after {
 .trombinoscope header {
   width: 100%; }
 .trombinoscope article {
-  height: 300px;
-  text-align: center; }
+  text-align: center;
+  height: 280px; }
   .trombinoscope article > p {
     text-align: center; }
 .trombinoscope > div header h2 {
   font-size: 1.85em; }
 .trombinoscope .frame {
-  display: inline-block;
-  text-align: center;
-  max-width: 12vw;
-  max-height: 12vw;
-  width: 150px;
-  height: 150px; }
+  text-align: center; }
+.trombinoscope .circled {
+  border-radius: 100%; }
 .trombinoscope .crop {
   height: 100%;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  display: inline-block; }
   .trombinoscope .crop img {
-    display: block;
     min-width: 100%;
     min-height: 100%;
-    margin: auto;
-    position: absolute;
-    top: -100%;
-    right: -100%;
-    bottom: -100%;
-    left: -100%; }
+    object-fit: cover; }
 
 /* Carousel */
 .carousel {
