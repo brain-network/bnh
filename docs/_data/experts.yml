@@ -3,7 +3,7 @@ chairs:
     - first_name: Fabrizio
       last_name: De Vico Fallani
       affiliation: Inria & ICM, France
-      website:
+      website: https://sites.google.com/site/devicofallanifabrizio/
       picture: images/experts/fabrizio.jpeg
 
     - first_name: Daniele
@@ -43,7 +43,7 @@ experts:
 
     - first_name: Richard
       last_name: Betzel
-      affiliation: Penn University, US
+      affiliation: University of Pennsylvania, US
       website: http://scholar.google.com/
       picture: images/experts/betzel.jpg
 
@@ -97,6 +97,6 @@ experts:
 
     - first_name: Natalia
       last_name: Bielczyk
-      affiliation: Radboud University, Netherlands
+      affiliation: Radboud University Medical Centre, Netherlands
       website: http://scholar.google.com/
       picture: images/experts/bielczyk.jpg
