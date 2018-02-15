@@ -1002,6 +1002,13 @@
 		.circled {
 			border-radius: 100%;
 		}
+		.shadowed {
+			transition: box-shadow ease-in-out .1s;
+			box-shadow: 2px 2px 20px gray;
+			&:hover {
+				box-shadow: 8px 8px 20px gray;
+			}
+		}
 		.crop {
 			height: 100%;
 			overflow: hidden;
@@ -1014,6 +1021,29 @@
 				min-width: 100%;
 				min-height: 100%;
 				object-fit: cover;
+			}
+		}
+	}
+
+
+/* Trombinoscope */
+
+	.sponsors {
+		
+		text-align: center;
+
+		div {
+			display: inline-block;
+		}
+		img {
+			max-width: 150px;
+			max-height: 150px;
+		}
+		.bandw {
+			transition: -webkit-filter ease-in-out .5s, filter ease-in-out .5s;
+			filter: grayscale(100%);
+			&:hover {
+				filter: grayscale(0%);
 			}
 		}
 	}

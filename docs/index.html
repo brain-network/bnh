@@ -210,7 +210,7 @@ class: homepage
 				<div class="row">
 					{% for e in site.data.experts.chairs %}
 						<article class="special 6u 12u(mobile)" id="{{ e.last_name | slugify }}">
-							<a href="#{{ e.last_name | slugify }}" class="image circled crop">
+							<a href="#{{ e.last_name | slugify }}" class="image circled crop shadowed">
 								<img src="{{ e.picture }}" alt="portrait" />
 							</a>
 							<header>
@@ -231,7 +231,7 @@ class: homepage
 				<div class="row">
 					{% for e in site.data.experts.organizers %}
 						<article class="special 6u 12u(mobile)" id="{{ e.last_name | slugify }}">
-							<a href="#{{ e.last_name | slugify }}" class="image circled crop">
+							<a href="#{{ e.last_name | slugify }}" class="image circled crop shadowed">
 								<img src="{{ e.picture }}" alt="portrait" />
 							</a>
 							<header>
@@ -253,7 +253,7 @@ class: homepage
 			<div class="row">
 				{% for e in site.data.experts.experts %}
 				<article class="3u 6u(mobile) special" id="{{ e.last_name | slugify }}">
-					<a href="#{{ e.last_name | slugify }}" class="image circled crop">
+					<a href="#{{ e.last_name | slugify }}" class="image circled crop shadowed">
 						<img src="{{ e.picture }}" alt="portrait" />
 					</a>
 					<header>
@@ -267,6 +267,18 @@ class: homepage
 			</div>
 		</div>
 
+	</section>
+
+	<section id="program" class="container special sponsors">
+		<!-- <a href="#" class="image featured"><img src="images/.png" alt="" /></a> -->
+		<header>
+			<h2><a href="#sponsors">Sponsors</a></h2>
+		</header>
+		<div class="row">
+			<a href="https://icm-institute.org" class="image bandw">
+				<img src="images/icm_logo.jpg" alt="ICM Logo" />
+			</a>
+		</div>
 	</section>
 
 </div>

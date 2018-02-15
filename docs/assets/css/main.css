@@ -1867,6 +1867,11 @@ body.homepage.is-loading #header:after {
   text-align: center; }
 .trombinoscope .circled {
   border-radius: 100%; }
+.trombinoscope .shadowed {
+  transition: box-shadow ease-in-out .1s;
+  box-shadow: 2px 2px 20px gray; }
+  .trombinoscope .shadowed:hover {
+    box-shadow: 8px 8px 20px gray; }
 .trombinoscope .crop {
   height: 100%;
   overflow: hidden;
@@ -1879,6 +1884,20 @@ body.homepage.is-loading #header:after {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover; }
+
+/* Trombinoscope */
+.sponsors {
+  text-align: center; }
+  .sponsors div {
+    display: inline-block; }
+  .sponsors img {
+    max-width: 150px;
+    max-height: 150px; }
+  .sponsors .bandw {
+    transition: -webkit-filter ease-in-out .5s, filter ease-in-out .5s;
+    filter: grayscale(100%); }
+    .sponsors .bandw:hover {
+      filter: grayscale(0%); }
 
 /* Carousel */
 .carousel {
