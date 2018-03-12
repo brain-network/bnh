@@ -1,6 +1,6 @@
 days:
 
-    - date: Saturday, June 9th 2017
+    - date: Saturday, June 9th 2018
       slots:
         - title: Registration and breakfast
           description: Pick-up your badge and enjoy some coffee and french vienoiseries
@@ -39,11 +39,11 @@ days:
           begin: "14:00"
           end: "20:00"
         - title: Social dinner
-          description: 
+          description:
           begin: "20:00"
           end: "N/A"
 
-    - date: Sunday, June 10th 2017
+    - date: Sunday, June 10th 2018
       slots:
         - title: Breakfast
           description:
