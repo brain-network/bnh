@@ -4,6 +4,7 @@
   description: "#101Nights emanated from Dream Sessions. It confront the subjective dreams perception of the artist Nathalie Regard with an objective, quantitative analysis, through brain recordings, seeking to establish a bridge between these two dimensions. Here we will take all the data from the 101 nights recorded, convert them into BIDS format, and extract physiological markers. We will also analyze the text of all the dream reports and daily logs of Nathalie. Finally, we will try to build a neurophenomenological network reflecting the performance."
   figure: images/projects/101nights.jpg
   external_link: "http://dreamsessions.org/101nights.html"
+  slack_link: "https://brainhack.slack.com/archives/C986B0Q3Z/p1519640047000441"
 
 - title: Your project!
   author: You

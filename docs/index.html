@@ -171,6 +171,9 @@ class: homepage
 					{% if p.external_link %}
 						<p><a href="{{ p.external_link }}">External link</a></p>
 					{% endif %}
+					{% if p.slack_link %}
+						<p><a href="{{ p.slack_link }}">Slack permalink</a></p>
+					{% endif %}
 				</article>
         	{% endfor %}
 		</div>
@@ -181,7 +184,6 @@ class: homepage
 		<!-- <a href="#" class="image featured"><img src="images/.png" alt="" /></a> -->
 		<header>
 			<h2><a href="#program">Program</a></h2>
-
 		</header>
 		<div class="row timetable">
 			{% for d in site.data.program.days %}
