@@ -168,6 +168,9 @@ class: homepage
 						<h3>{{ p.title }}</h3>
 					</header>
 					<p>{{ p.short_description }}</p>
+					{% if p.external_link %}
+						<p><a href="{{ p.external_link }}">External link</a></p>
+					{% endif %}
 				</article>
         	{% endfor %}
 		</div>

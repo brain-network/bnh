@@ -1,4 +1,12 @@
-- title: Project title example
+- title: "#101Nights"
+  author: Guillaume Dumas
+  short_description: "#101Nights emanated from Dream Sessions. It confront the subjective dreams perception of the artist Nathalie Regard with an objective, quantitative analysis, through brain recordings, seeking to establish a bridge between these two dimensions."
+  description: "#101Nights emanated from Dream Sessions. It confront the subjective dreams perception of the artist Nathalie Regard with an objective, quantitative analysis, through brain recordings, seeking to establish a bridge between these two dimensions. Here we will take all the data from the 101 nights recorded, convert them into BIDS format, and extract physiological markers. We will also analyze the text of all the dream reports and daily logs of Nathalie. Finally, we will try to build a neurophenomenological network reflecting the performance."
+  figure: images/projects/101nights.jpg
+  external_link: "http://dreamsessions.org/101nights.html"
+
+- title: Your project!
+  author: You
   short_description: Waiting for your proposals! <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">Click here</a> to propose your own.<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script>
   description: Lorem ipsum sit amet...
   figure: images/projects/figure5.png

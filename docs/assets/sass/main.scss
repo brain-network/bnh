@@ -1029,7 +1029,7 @@
 /* Trombinoscope */
 
 	.sponsors {
-		
+
 		text-align: center;
 
 		div {
@@ -1133,6 +1133,7 @@
 
 		article {
 			display: inline-block;
+			vertical-align: top;
 			width: 18em;
 			background: #fff;
 			text-align: center;
@@ -1151,8 +1152,15 @@
 				left: -1em;
 				top: 0;
 				width: auto;
+				height: 10em;
+				overflow: hidden;
 				margin-right: -2em;
 				margin-bottom: 3em;
+				img {
+					min-width: 100%;
+					min-height: 100%;
+					object-fit: cover;
+				}
 			}
 
 			p {

@@ -1961,6 +1961,7 @@ body.homepage.is-loading #header:after {
     padding: 0 2em 0 2em; }
   .carousel article {
     display: inline-block;
+    vertical-align: top;
     width: 18em;
     background: #fff;
     text-align: center;
@@ -1979,8 +1980,14 @@ body.homepage.is-loading #header:after {
       left: -1em;
       top: 0;
       width: auto;
+      height: 10em;
+      overflow: hidden;
       margin-right: -2em;
       margin-bottom: 3em; }
+      .carousel article .image img {
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover; }
     .carousel article p {
       text-align: center; }
 
