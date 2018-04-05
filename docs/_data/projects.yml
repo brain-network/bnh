@@ -6,6 +6,13 @@
   external_link: "http://dreamsessions.org/101nights.html"
   slack_link: "https://brainhack.slack.com/archives/C986B0Q3Z/p1519640047000441"
 
+- title: "Spatio-temporal dynamics of brain network connectivity"
+  author: Nicolas Farrugia
+  short_description: "A set of functions on notebooks to perform dynamic connectivity analysis using python / sklearn / nilearn / bct."
+  description: "The goal of this project is to opensource ongoing efforts to estimate various aspects of dynamic connectivity analysis. As a starting point, we will provide (1a) a set of functions that use sklearn, nilearn, bct (+numpy, scipy, nistats,...) that can be used to estimate dynamics states with various connectivity metrics, sliding windows and clustering algorithms (1b) as well as decomposition methods (ICA, dictionary learning), (2) simple methods to calculate null statistical models using bootstrapping procedures, (3) dynamic graph theory metrics, and (4) basic visualizations. We encourage researchers to join us in order to either help building the examples, or contribute with new methods, or test our methods on their own data."
+  figure: images/projects/nilearn-logo.png
+  slack_link: "https://brainhack.slack.com/archives/C986B0Q3Z/p1522081166000273"
+
 - title: Your project!
   author: You
   short_description: Waiting for your proposals! <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">Click here</a> to propose your own.<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script>

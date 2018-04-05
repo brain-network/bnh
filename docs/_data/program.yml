@@ -7,15 +7,15 @@ days:
           begin: "9:00"
           end: "9:30"
         - title: Welcome and Introduction
-          description: Title to be confirmed
+          description:
           begin: "9:30"
           end: "10:00"
         - title: Ignite talk 1
-          description: Speaker to be confirmed - <i>Title to be confirmed</i>
+          description: Vincenzo Nicosia - <i>Title to be confirmed</i>
           begin: "10:00"
           end: "10:45"
         - title: Ignite talk 2
-          description: Speaker to be confirmed - <i>Title to be confirmed</i>
+          description: Daniel Margulies - <i>Title to be confirmed</i>
           begin: "10:45"
           end: "11:30"
         - title: Coffee break
@@ -54,7 +54,7 @@ days:
           begin: "9:30"
           end: "13:00"
         - title: Lunch
-          description: Menu to be confirmed
+          description:
           begin: "13:30"
           end: "14:00"
         - title: Hacking
