@@ -11,11 +11,11 @@ days:
           begin: "9:30"
           end: "10:00"
         - title: Ignite talk 1
-          description: Vincenzo Nicosia - <i>Complex Networks all around us (or, why your brain looks like Twitter)</i>
+          description: "Vincenzo Nicosia (Queen Mary Universtiy, UK) - <i>Complex Networks all around us (or, why your brain looks like Twitter)</i>"
           begin: "10:00"
           end: "10:45"
         - title: Ignite talk 2
-          description: Daniel Margulies - <i>Title to be confirmed</i>
+          description: "Daniel Margulies (CNRS & ICM, France) - <i>Brains in Space: Challenges for bridging network and cognitive neuroscience</i>"
           begin: "10:45"
           end: "11:30"
         - title: Coffee break
@@ -31,7 +31,7 @@ days:
           begin: "12:20"
           end: "13:00"
         - title: Lunch
-          description: Get some strength, menu to be confirmed
+          description:
           begin: "13:00"
           end: "14:00"
         - title: Hacking

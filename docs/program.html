@@ -21,10 +21,10 @@ title: Brainhack Nets - Program
                         <td>Title & Description</td>
                     </tr>
                 </thead> -->
-                <tbody>
+                <tbody class="program">
                     {% for s in d.slots %}
                         <tr>
-                            <td>{{ s.begin }} – {{ s.end }}</td>
+                            <td class="time">{{ s.begin }} – {{ s.end }}</td>
                             <td>
                                 <h4>{{ s.title }}</h4>
                                 <p>

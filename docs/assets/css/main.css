@@ -1853,6 +1853,10 @@ body.homepage.is-loading #header:after {
       #footer .copyright a:hover {
         color: rgba(212, 212, 212, 0.85); }
 
+/* Program */
+.program .time {
+  width: 100px; }
+
 /* Trombinoscope */
 .trombinoscope header {
   width: 100%; }
