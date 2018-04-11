@@ -11,7 +11,7 @@ days:
           begin: "9:30"
           end: "10:00"
         - title: Ignite talk 1
-          description: Vincenzo Nicosia - <i>Title to be confirmed</i>
+          description: Vincenzo Nicosia - <i>Complex Networks all around us (or, why your brain looks like Twitter)</i>
           begin: "10:00"
           end: "10:45"
         - title: Ignite talk 2
