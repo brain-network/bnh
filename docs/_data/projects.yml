@@ -13,6 +13,14 @@
   figure: images/projects/nilearn-logo.png
   slack_link: "https://brainhack.slack.com/archives/C986B0Q3Z/p1522081166000273"
 
+- title: "Functional connectivity fingerprinting: maximizing identifiability in human functional connectomes"
+  author: Enrico Amico
+  short_description: "We will cover recent data-driven methods to measure and/or improve the capacity of individual fingerprinting from functional connectivity data (Finn et al., Nature Neuroscience 2015, Amico and Goñi, Scientific Reports (in press) 2018)."
+  description: "The concept of identifiability based on brain connectivity is very new (Finn et al. Nature Neuroscience 2015). Most recently, we made a significant step forward on this topic by introducing a data-driven method for optimal reconstruction of individual functional connectivity patterns that retrieves hidden identifiability from the data (Amico and Goñi, Scientific Reports (in press) 2018). In this Hackathon project we will cover the concept of fingerprinting on human brain data. In particular, we will provide sample functional connectivity data and guide you to the procedure for maximizing identifiability. Participants are welcome to bring and work on their own functional connectivity data. Resting-state or task-based data are welcome, as well as healthy or diseased population (fully processed; please note that fMRI processing is not a topic of this project :) ). If your dataset only has one fMRI run per subject, we can `create` test-retest sessions by splitting the run into first and second half and getting the FCs on each half. Link to the most relevant paper for this project is below:"
+  figure: images/projects/fc-fingerprinting.png
+  external_link: "https://arxiv.org/abs/1707.02365"
+  slack_link: "https://brainhack.slack.com/archives/C986B0Q3Z/p1524765330000449"
+
 - title: Your project!
   author: You
   short_description: Waiting for your proposals! <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">Click here</a> to propose your own.<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script>
