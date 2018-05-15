@@ -3,7 +3,7 @@ days:
     - date: Saturday, June 9th 2018
       slots:
         - title: Registration and breakfast
-          description: Pick-up your badge and enjoy some coffee and french vienoiseries
+          description: Pick-up your badge and enjoy some coffee and french viennoiseries
           begin: "9:00"
           end: "9:30"
         - title: Welcome and Introduction
