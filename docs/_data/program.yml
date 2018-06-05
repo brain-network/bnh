@@ -7,7 +7,7 @@ days:
           begin: "9:00"
           end: "9:30"
         - title: Welcome and Introduction
-          description:
+          description: "Fabrizio De Vico Fallani (Inria & ICM, France) and Katja Heuer (Max Planck Institute, Germany)"
           begin: "9:30"
           end: "10:00"
         - title: Ignite talk 1
