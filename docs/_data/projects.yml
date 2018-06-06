@@ -29,6 +29,14 @@
   external_link: "https://www.overleaf.com/read/ghwtqnnkqpft"
   slack_link: "https://brainhack.slack.com/archives/C986B0Q3Z/p1525471180000063"
 
+- title: "Multi-layer networks based predictions"
+  author: Jeremy Guillon
+  short_description: "Predict age, sex, diagnosis or scores to cognitive tests using only multi-layer networks from open datasets."
+  description: "Play with our open datasets to predict age, sex, diagnosis or scores to cognitive tests using only networks. The two provided datasets contain multimodal (dwMRI and fMRI) networks, or multi-frequency MEG-extracted functional networks. Datasets are in MATLAB format but can be easily imported in a Python environment. More details can be found in the following references: Battiston F. et al., Multiplex core-periphery organization of the human connectome. arXiv:1801.01913 (2017); Guillon J. et al. Loss of brain inter-frequency hubs in Alzheimer’s disease. Scientific Reports 7, 10879 (2017)."
+  figure: images/projects/multiplex.png
+  external_link: "http://umcd.humanconnectomeproject.org/"
+  slack_link: "https://brainhack.slack.com/archives/C986B0Q3Z/p1528293212000881"
+
 - title: Your project!
   author: You
   short_description: Waiting for your proposals! <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">Click here</a> to propose your own.<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script>
