@@ -66,6 +66,6 @@ days:
           begin: "18:00"
           end: "19:00"
         - title: Discussion and closing
-          description:
+          description: "Daniele Marinazzo (Ghent University, Belgium)"
           begin: "19:00"
           end: "20:00"
