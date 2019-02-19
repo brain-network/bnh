@@ -1,24 +1,24 @@
 chairs:
 
-    - first_name: Fabrizio
-      last_name: De Vico Fallani
-      affiliation: Inria & ICM, France
-      website: https://sites.google.com/site/devicofallanifabrizio/
-      picture: images/experts/fabrizio.jpeg
+    - first_name: Joaquin
+      last_name: Goni
+      affiliation: CONNplexity Lab, Purdue University
+      website: https://engineering.purdue.edu/ConnplexityLab
+      picture: images/experts/goni.jpg
 
-    - first_name: Daniele
-      last_name: Marinazzo
-      affiliation: Ghent University, Belgium
+    - first_name:
+      last_name:
+      affiliation:
       website:
-      picture: images/experts/marinazzo.jpg
+      picture: images/experts/
 
 organizers:
 
-    - first_name: Jeremy
-      last_name: Guillon
-      affiliation: UPMC & ICM, France
-      website: http://guillonjeremy.co
-      picture: images/experts/guillon.png
+    - first_name: Meenusree
+      last_name: Rajapandian
+      affiliation: CONNplexity Lab
+      website: https://engineering.purdue.edu/ConnplexityLab
+      picture: images/experts/rajapandian.jpg
 
     - first_name: Emmanuelle
       last_name: Mauduit
@@ -52,12 +52,6 @@ experts:
       affiliation: Indiana University, US
       website: http://scholar.google.com/
       picture: images/experts/avena.png
-
-    - first_name: Joaquin
-      last_name: Goni
-      affiliation: Purdue University, US
-      website: http://scholar.google.com/
-      picture: images/experts/goni.jpg
 
     - first_name: Enrico
       last_name: Amico
