@@ -1504,8 +1504,8 @@ button,
 .button {
   position: relative;
   display: inline-block;
-  background: #a3fca1;
-  color: #2b2b2b;
+  background: rgba(0, 0, 0, 0.75);
+  color: #a3fca1;
   text-align: center;
   border-radius: 0.5em;
   text-decoration: none;

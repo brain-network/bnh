@@ -6,11 +6,11 @@ chairs:
       website: https://engineering.purdue.edu/ConnplexityLab
       picture: images/experts/goni.jpg
 
-    - first_name:
-      last_name:
+    - first_name: Fabrizio
+      last_name: De Vico Fallani
       affiliation:
       website:
-      picture: images/experts/
+      picture: images/experts/fabrizio.jpeg
 
 organizers:
 
@@ -29,11 +29,11 @@ organizers:
 
 experts:
 
-    - first_name: Vincenzo
-      last_name: Nicosia
-      affiliation: Queen Mary Universtiy, UK
-      website: http://scholar.google.com/
-      picture: images/experts/nicosia.png
+#    - first_name: Vincenzo
+#      last_name: Nicosia
+#      affiliation: Queen Mary Universtiy, UK
+#      website: http://scholar.google.com/
+#      picture: images/experts/nicosia.png
 
     - first_name: Manlio
       last_name: De Domenico
@@ -47,11 +47,11 @@ experts:
       website: http://scholar.google.com/
       picture: images/experts/betzel.jpg
 
-    - first_name: Andrea
-      last_name: Avena-Koenigsberger
-      affiliation: Indiana University, US
-      website: http://scholar.google.com/
-      picture: images/experts/avena.png
+#    - first_name: Andrea
+#      last_name: Avena-Koenigsberger
+#      affiliation: Indiana University, US
+#      website: http://scholar.google.com/
+#      picture: images/experts/avena.png
 
     - first_name: Enrico
       last_name: Amico
@@ -59,38 +59,98 @@ experts:
       website: http://scholar.google.com/
       picture: images/experts/amico.jpg
 
-    - first_name: Roberto
-      last_name: Toro
-      affiliation: Institut Pasteur, France
-      website: http://scholar.google.com/
-      picture: images/experts/toro.jpg
-
-    - first_name: Guillaume
-      last_name: Dumas
-      affiliation: Institut Pasteur, France
-      website: http://scholar.google.com/
-      picture: images/experts/dumas.jpg
-
-    - first_name: Michel
-      last_name: Thibaut De Schotten
-      affiliation: CNRS & ICM, France
-      website: http://scholar.google.com/
-      picture: images/experts/schotten.jpeg
-
-    - first_name: Daniel
-      last_name: Margulies
-      affiliation: CNRS & ICM, France
-      website: http://scholar.google.com/
-      picture: images/experts/margulies.jpg
-
-    - first_name: Katja
-      last_name: Heuer
-      affiliation: Max Planck Institute, Germany
-      website: http://scholar.google.com/
-      picture: images/experts/heuer.jpg
-
     - first_name: Natalia
       last_name: Bielczyk
       affiliation: Radboud University Medical Centre, Netherlands
       website: http://scholar.google.com/
       picture: images/experts/bielczyk.jpg
+
+    - first_name: Mario
+      last_name: Ventresca
+      affiliation: Purdue University
+      website:
+      picture: images/experts/
+
+    - first_name: Mario
+      last_name: Dzemidzic
+      affiliation: Indiana University
+      website:
+      picture: images/experts/
+
+    - first_name: Jorge
+      last_name: Sepulcre
+      affiliation: Harvard University
+      website:
+      picture: images/experts/
+
+    - first_name: Diana
+      last_name: Otero Svaldi
+      affiliation: Indiana University
+      website:
+      picture: images/experts/
+
+    - first_name: Jaroslaw
+      last_name: Harezlak
+      affiliation: Indiana University
+      website:
+      picture: images/experts/
+
+    - first_name: Emma
+      last_name: Towlson
+      affiliation: Northeaster University
+      website:
+      picture: images/experts/towlson.jpg
+
+    - first_name: Li
+      last_name: Shen
+      affiliation: University of Pennsylvania
+      website:
+      picture: images/experts/
+
+    - first_name:
+      last_name:
+      affiliation:
+      website:
+      picture: images/experts/
+
+    - first_name:
+      last_name:
+      affiliation:
+      website:
+      picture: images/experts/
+
+    - first_name:
+      last_name:
+      affiliation:
+      website:
+      picture: images/experts/
+
+#    - first_name: Roberto
+#      last_name: Toro
+#      affiliation: Institut Pasteur, France
+#      website: http://scholar.google.com/
+#      picture: images/experts/toro.jpg
+
+#    - first_name: Guillaume
+#      last_name: Dumas
+#      affiliation: Institut Pasteur, France
+#      website: http://scholar.google.com/
+#      picture: images/experts/dumas.jpg
+
+#    - first_name: Michel
+#      last_name: Thibaut De Schotten
+#      affiliation: CNRS & ICM, France
+#      website: http://scholar.google.com/
+#      picture: images/experts/schotten.jpeg
+
+#    - first_name: Daniel
+#      last_name: Margulies
+#      affiliation: CNRS & ICM, France
+#      website: http://scholar.google.com/
+#      picture: images/experts/margulies.jpg
+
+#    - first_name: Katja
+#      last_name: Heuer
+#      affiliation: Max Planck Institute, Germany
+#      website: http://scholar.google.com/
+#      picture: images/experts/heuer.jpg
