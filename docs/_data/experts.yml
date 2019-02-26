@@ -75,7 +75,7 @@ experts:
       last_name: Dzemidzic
       affiliation: Indiana University
       website:
-      picture: images/experts/
+      picture: images/experts/dzemidzic.jpg
 
     - first_name: Jorge
       last_name: Sepulcre
@@ -87,7 +87,7 @@ experts:
       last_name: Otero Svaldi
       affiliation: Indiana University
       website:
-      picture: images/experts/
+      picture: images/experts/svaldi.jpg
 
     - first_name: Jaroslaw
       last_name: Harezlak
