@@ -1,6 +1,6 @@
 days:
 
-    - date: Saturday, June 9th 2018
+    - date: Saturday, May 25th 2019
       slots:
         - title: Registration and breakfast
           description: Pick-up your badge and enjoy some coffee and french viennoiseries
@@ -51,7 +51,7 @@ days:
           begin: "20:00"
           end: "N/A"
 
-    - date: Sunday, June 10th 2018
+    - date: Sunday, May 26th 2019
       slots:
         - title: Breakfast
           description:
@@ -73,7 +73,7 @@ days:
           description: Short presentations of results or advances of your project
           begin: "14:00"
           end: "15:30"
-        - title: Discussion and closing
+        - title: Discussion, Awards & Closing
           description: "Joaquin Goni and Fabrizio De Vico Fallani"
           begin: "15:30"
           end: "16:00"
