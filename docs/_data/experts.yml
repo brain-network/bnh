@@ -18,12 +18,6 @@ chairs:
       website:
       picture: images/experts/marinazzo.jpg
 
-    - first_name: Daniele
-      last_name: Marinazzo
-      affiliation: University of Gent
-      website:
-      picture: images/experts/marinazzo.jpg
-
 organizers:
 
     - first_name: Meenusree
@@ -36,7 +30,7 @@ organizers:
       last_name: Guillon
       affiliation: ICM, France
       website:
-      picture: images/experts/guillon.jpg
+      picture: images/experts/guillon.png
 
 
 experts:
