@@ -3,11 +3,11 @@ days:
     - date: Saturday, May 25th 2019
       slots:
         - title: Registration and breakfast
-          description: Pick-up your badge and enjoy some coffee and french viennoiseries
+          description: Pick-up your badge and enjoy some coffee and your breakfast
           begin: "8:00"
           end: "8:30"
         - title: Welcome and Introduction
-          description: "Joaquin Goni and Fabrizio De Vico Fallani"
+          description: "Joaqu&iacute;n Go<span>&#241;</span>i and Fabrizio De Vico Fallani"
           begin: "8:30"
           end: "9:00"
         - title: Ignite talk 1
@@ -74,6 +74,6 @@ days:
           begin: "14:00"
           end: "15:30"
         - title: Discussion, Awards & Closing
-          description: "Joaquin Goni and Fabrizio De Vico Fallani"
+          description: "Joaqu&iacute;n Go<span>&#241;</span>i and Fabrizio De Vico Fallani"
           begin: "15:30"
           end: "16:00"
