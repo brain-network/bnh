@@ -31,7 +31,7 @@ class: homepage
 					<h3><a href="#more-about">More about</a></h3>
 				</header>
 				<p>
-					The Brainhack-Networks 2019 is an independent event sponsored by the organizing committee of the Network Neuroscience satellite of the International School and Conference on Network Science (<a href= "http://vermontcomplexsystems.org/events/netsci/">NetSci 2019</a>). This event is also sponsored by the following institutions...
+					The <b>Brainhack-Networks 2019</b> is an independent event sponsored by the organizing committee of the Network Neuroscience satellite of the International School and Conference on Network Science (<a href= "http://vermontcomplexsystems.org/events/netsci/">NetSci 2019</a>). This event is also sponsored by the <b><a href="https://www.purdue.edu/collaboratory/">Purdue Systems Collaboratory</a></b> and the <b><a href="https://www.purdue.edu/discoverypark/institute-for-integrative-neuroscience/">Purdue Institute for Integrative Neuroscience.</a></b>
 				</p>
 
 				<p>
@@ -39,7 +39,7 @@ class: homepage
 				</p>
 
 				<p>
-					The goal is to bring together researchers with heterogeneous backgrounds from around the world to collaborate on innovative open science projects related to brain connectomics. We welcome all projects related to brain connectomics. As a guidance, we have identified the following state-of-the-art topics: <b><i>brain fingerprinting, topological morphospaces, multimodal/multiplex brain networks, controllability of brain networks, mapping connectivitiy and cognition/behaviour, and modelling disease progression</i></b>. While the theme sets the type of projects and presentations of the event, it is not meant to be restrictive. Participants are encouraged to post project ideas by March 22 via the <a href="#projects">dedicated form</a>.
+					The goal is to bring together researchers with heterogeneous backgrounds from around the world to collaborate on innovative open science projects related to brain connectomics. We welcome all projects related to brain connectomics. As a guidance, we have identified the following state-of-the-art topics: <b><i>brain fingerprinting, topological morphospaces, multimodal/multiplex brain networks, controllability of brain networks, mapping connectivitiy and cognition/behaviour, and modelling disease progression</i></b>. While the theme sets the type of projects and presentations of the event, it is not meant to be restrictive. <b>Participants are encouraged to post project ideas by March 22 via the <a href="about:blank">dedicated form</a></b>.
 				</p>
 				<p>
 					An international team of <a href="#experts">renown experts</a> in the field of network science and neuroscience will coordinate the event in an effort to boost the realization of the projects. The team of experts will also recognize the best three projects with an award.
@@ -57,7 +57,7 @@ class: homepage
 					</header>
 
 					<p>
-						<b>The Brainhack-Networks 2019 will take place on May 25 & 26th.</b> This 2 day event is just before the <a href="http://netneurosci.com">Network Neuroscience satellite</a> on May 27. These events are a part of the <a href="http://vermontcomplexsystems.org/events/netsci/">International School and Conference on Network Science (NetSci 2019)</a>.
+						<b>The Brainhack-Networks 2019 will take place on May 25th & 26th.</b> This 2 day event is just before the <a href="http://netneurosci.com">Network Neuroscience satellite</a> on May 27th. These events are a part of the <a href="http://vermontcomplexsystems.org/events/netsci/">International School and Conference on Network Science (NetSci 2019)</a>.
 					</p>
 					<a href="#program" class="scrolly">Check out the program</a>
 				</article>
@@ -66,7 +66,7 @@ class: homepage
 						<h3><a href="/venue"><span class="fa fa-map-marker"></span> Where?</a></h3>
 					</header>
 					<p>
-						The event will be held in Burlington Vermont, USA at the <a href="http://vermontcomplexsystems.org/">University of Vermont</a>.
+						The event will be held in Burlington Vermont, USA at the <a href="http://vermontcomplexsystems.org/">University of Vermont</a>.</br>Building and Room to be announced soon.
 					</p>
 					<a href="/venue">Check out the venue</a>
 				</article>
@@ -75,7 +75,7 @@ class: homepage
 						<h3><a href="/venue"><span class="fa fa-sign-in"></span> How to join?</a></h3>
 					</header>
 					<p>
-						You just need to fill out the <a href="/registration">registration form</a> and pay the <b>registration fee of $50</b> that includes internet, breakfast, lunch, social dinner, and coffee breaks.
+						You just need to fill out the <a href="/registration">registration form</a> and pay the <b>registration fee of $50</b> that includes internet, breakfast, lunch, social dinner, and coffee breaks. <b>Number of participants is limited to 50. </b>
 					</p>
 					<a class="button" href="/registration">Register now</a>
 				</article>
@@ -152,7 +152,7 @@ class: homepage
 <!-- Projects -->
 	<section id="projects" class="carousel special">
 		<header>
-			<h2><a href="#projects">Projects from 2018</a></h2>
+			<h2><a href="#projects">Projects</a></h2>
 			<p>
 				Here is a list of already proposed projects. If you want to propose yours, please fill out <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">this form</a>.
 				<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
@@ -214,7 +214,7 @@ class: homepage
 				</header>
 				<div class="row">
 					{% for e in site.data.experts.chairs %}
-						<article class="4u 3u(mobile) special" id="{{ e.last_name | slugify }}">
+						<article class="4u 12u(mobile) special" id="{{ e.last_name | slugify }}">
 							<a href="#{{ e.last_name | slugify }}" class="image circled crop shadowed">
 								<img src="{{ e.picture }}" alt="portrait" />
 							</a>
@@ -235,7 +235,7 @@ class: homepage
 				</header>
 				<div class="row">
 					{% for e in site.data.experts.organizers %}
-						<article class="6u 4u(mobile) special" id="{{ e.last_name | slugify }}">
+						<article class="6u 12u(mobile) special" id="{{ e.last_name | slugify }}">
 							<a href="#{{ e.last_name | slugify }}" class="image circled crop shadowed">
 								<img src="{{ e.picture }}" alt="portrait" />
 							</a>

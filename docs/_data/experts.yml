@@ -2,7 +2,7 @@ chairs:
 
     - first_name: Joaquin
       last_name: Goni
-      affiliation: CONNplexity Lab,</br> Purdue University
+      affiliation: CONN<i>plexity</i> Lab,</br> Purdue University
       website: https://engineering.purdue.edu/ConnplexityLab
       picture: images/experts/goni.jpg
 
@@ -28,18 +28,36 @@ organizers:
 
     - first_name: Jeremy
       last_name: Guillon
-      affiliation: ICM, France
-      website:
+      affiliation: France
+      website: http://guillonjeremy.co/
       picture: images/experts/guillon.png
 
 
 experts:
 
-#    - first_name: Vincenzo
-#      last_name: Nicosia
-#      affiliation: Queen Mary Universtiy, UK
-#      website: http://scholar.google.com/
-#      picture: images/experts/nicosia.png
+    - first_name: Kausar
+      last_name: Abbas
+      affiliation: CONN<i>plexity</i> Lab,</br> Purdue University
+      website: https://engineering.purdue.edu/ConnplexityLab
+      picture: images/experts/abbas.jpeg
+
+    - first_name: Enrico
+      last_name: Amico
+      affiliation: CONN<i>plexity</i> Lab,</br> Purdue University
+      website: https://engineering.purdue.edu/ConnplexityLab
+      picture: images/experts/amico.png
+
+    - first_name: Andrea
+      last_name: Avena-Koenigsberger
+      affiliation: Indiana University, US
+      website: http://scholar.google.com/
+      picture: images/experts/avena.png
+
+    - first_name: Natalia
+      last_name: Bielczyk
+      affiliation: Radboud University Medical Centre, Netherlands
+      website: http://scholar.google.com/
+      picture: images/experts/bielczyk.jpg
 
     - first_name: Manlio
       last_name: De Domenico
@@ -53,107 +71,47 @@ experts:
 #      website: http://scholar.google.com/
 #      picture: images/experts/betzel.jpg
 
-    - first_name: Andrea
-      last_name: Avena-Koenigsberger
-      affiliation: Indiana University, US
+    - first_name: Mario
+      last_name: Dzemidzic
+      affiliation: School of Medicine </br> Indiana University
       website: http://scholar.google.com/
-      picture: images/experts/avena.png
+      picture: images/experts/dzemidzic.jpg
 
-    - first_name: Enrico
-      last_name: Amico
-      affiliation: Purdue University, US
+    - first_name: Jaroslaw
+      last_name: Harezlak
+      affiliation: School of Public Health </br> Indiana University
       website: http://scholar.google.com/
-      picture: images/experts/amico.jpg
+      picture: images/experts/jarek.png
 
-    - first_name: Natalia
-      last_name: Bielczyk
-      affiliation: Radboud University Medical Centre, Netherlands
-      website: http://scholar.google.com/
-      picture: images/experts/bielczyk.jpg
+    - first_name: Jorge
+      last_name: Sepulcre
+      affiliation: Gordon Center for Medical Imaging </br> Harvard University
+      website: http://gordon.mgh.harvard.edu/sepulcre_lab/
+      picture: images/experts/sepulcre.jpg
+
+    - first_name: Li
+      last_name: Shen
+      affiliation: School of Medicine </br> University of Pennsylvania
+      website: https://www.med.upenn.edu/shenlab/
+      picture: images/experts/shen.jpg
+
+    - first_name: Diana
+      last_name: Otero Svaldi
+      affiliation: School of Medicine </br> Indiana University
+      website: https://medicine.iu.edu/faculty/38689/svaldi-diana/
+      picture: images/experts/svaldi.jpg
+
+    - first_name: Emma
+      last_name: Towlson
+      affiliation: Center for Complex Network Research </br>Northeastern University
+      website: https://emmatowlson.github.io/
+      picture: images/experts/towlson.jpg
 
     - first_name: Mario
       last_name: Ventresca
       affiliation: Purdue University
-      website:
+      website: https://engineering.purdue.edu/~mventresca/
       picture: images/experts/ventresca.png
-
-    - first_name: Mario
-      last_name: Dzemidzic
-      affiliation: Indiana University
-      website:
-      picture: images/experts/dzemidzic.jpg
-
-    - first_name: Jorge
-      last_name: Sepulcre
-      affiliation: Harvard University
-      website:
-      picture: images/experts/sepulcre.jpg
-
-    - first_name: Diana
-      last_name: Otero Svaldi
-      affiliation: Indiana University
-      website:
-      picture: images/experts/svaldi.jpg
-
-    - first_name: Jaroslaw
-      last_name: Harezlak
-      affiliation: Indiana University
-      website:
-      picture: images/experts/
-
-    - first_name: Emma
-      last_name: Towlson
-      affiliation: Northeastern University
-      website:
-      picture: images/experts/towlson.jpg
-
-    - first_name: Li
-      last_name: Shen
-      affiliation: University of Pennsylvania
-      website:
-      picture: images/experts/
-
-    - first_name:
-      last_name:
-      affiliation:
-      website:
-      picture: images/experts/
-
-    - first_name:
-      last_name:
-      affiliation:
-      website:
-      picture: images/experts/
-
-    - first_name:
-      last_name:
-      affiliation:
-      website:
-      picture: images/experts/
-
-#    - first_name: Roberto
-#      last_name: Toro
-#      affiliation: Institut Pasteur, France
-#      website: http://scholar.google.com/
-#      picture: images/experts/toro.jpg
-
-#    - first_name: Guillaume
-#      last_name: Dumas
-#      affiliation: Institut Pasteur, France
-#      website: http://scholar.google.com/
-#      picture: images/experts/dumas.jpg
-
-#    - first_name: Michel
-#      last_name: Thibaut De Schotten
-#      affiliation: CNRS & ICM, France
-#      website: http://scholar.google.com/
-#      picture: images/experts/schotten.jpeg
-
-#    - first_name: Daniel
-#      last_name: Margulies
-#      affiliation: CNRS & ICM, France
-#      website: http://scholar.google.com/
-#      picture: images/experts/margulies.jpg
 
 #    - first_name: Katja
 #      last_name: Heuer
