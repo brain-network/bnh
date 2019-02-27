@@ -152,7 +152,7 @@ class: homepage
 <!-- Projects -->
 	<section id="projects" class="carousel special">
 		<header>
-			<h2><a href="#projects">Projects</a></h2>
+			<h2><a href="#projects">Projects from 2018</a></h2>
 			<p>
 				Here is a list of already proposed projects. If you want to propose yours, please fill out <a class="typeform-share link" href="https://jguillon.typeform.com/to/qanJ6E" data-mode="popup" data-hide-footer=true target="_blank">this form</a>.
 				<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
@@ -209,13 +209,12 @@ class: homepage
 	<section class="container special trombinoscope" id="experts">
 
 		<div class="row">
-			<div class="6u 6u(mobile)">
 				<header>
 					<h2>Program chairs</h2>
 				</header>
 				<div class="row">
 					{% for e in site.data.experts.chairs %}
-						<article class="special 6u 12u(mobile)" id="{{ e.last_name | slugify }}">
+						<article class="5u 3u(mobile) special" id="{{ e.last_name | slugify }}">
 							<a href="#{{ e.last_name | slugify }}" class="image circled crop shadowed">
 								<img src="{{ e.picture }}" alt="portrait" />
 							</a>
@@ -230,13 +229,13 @@ class: homepage
 				</div>
 			</div>
 
-			<div class="6u 6u(mobile)">
+			<div class="row">
 				<header>
 					<h2>Support Team</h2>
 				</header>
 				<div class="row">
 					{% for e in site.data.experts.organizers %}
-						<article class="special 6u 12u(mobile)" id="{{ e.last_name | slugify }}">
+						<article class="3u 6u(mobile) special" id="{{ e.last_name | slugify }}">
 							<a href="#{{ e.last_name | slugify }}" class="image circled crop shadowed">
 								<img src="{{ e.picture }}" alt="portrait" />
 							</a>
@@ -250,7 +249,7 @@ class: homepage
 					{% endfor %}
 				</div>
 			</div>
-		</div>
+
 
 		<div class="row">
 			<header>
@@ -282,8 +281,11 @@ class: homepage
 			<h2><a href="#sponsors">Sponsors</a></h2>
 		</header>
 		<div class="row">
-			<a href="https://icm-institute.org" class="image bandw">
-				<img src="images/icm_logo.jpg" alt="ICM Logo" />
+			<a href="https://www.purdue.edu/collaboratory/" class="image bandw">
+				<img src="images/Collaboratory.png" alt="PSC Logo" />
+			</a>
+			<a href="https://www.purdue.edu/discoverypark/institute-for-integrative-neuroscience/" class="image bandw">
+				<img src="images/logo_PIIN.jpg" alt="PIIN Logo" />
 			</a>
 		</div>
 	</section>

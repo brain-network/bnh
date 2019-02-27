@@ -8,9 +8,21 @@ chairs:
 
     - first_name: Fabrizio
       last_name: De Vico Fallani
-      affiliation:
+      affiliation: ICM, France
       website:
       picture: images/experts/fabrizio.jpeg
+
+    - first_name: Daniele
+      last_name: Marinazzo
+      affiliation: University of Ghent
+      website:
+      picture: images/experts/marinazzo.jpg
+
+    - first_name: Daniele
+      last_name: Marinazzo
+      affiliation: University of Gent
+      website:
+      picture: images/experts/marinazzo.jpg
 
 organizers:
 
@@ -20,11 +32,11 @@ organizers:
       website: https://engineering.purdue.edu/ConnplexityLab
       picture: images/experts/rajapandian.jpg
 
-    - first_name: Emmanuelle
-      last_name: Mauduit
+    - first_name: Jeremy
+      last_name: Guillon
       affiliation: ICM, France
       website:
-      picture: images/experts/mauduit.jpg
+      picture: images/experts/guillon.jpg
 
 
 experts:
@@ -41,17 +53,17 @@ experts:
       website: http://scholar.google.com/
       picture: images/experts/dedomenico.png
 
-    - first_name: Richard
-      last_name: Betzel
-      affiliation: University of Pennsylvania, US
-      website: http://scholar.google.com/
-      picture: images/experts/betzel.jpg
-
-#    - first_name: Andrea
-#      last_name: Avena-Koenigsberger
-#      affiliation: Indiana University, US
+#    - first_name: Richard
+#      last_name: Betzel
+#      affiliation: University of Pennsylvania, US
 #      website: http://scholar.google.com/
-#      picture: images/experts/avena.png
+#      picture: images/experts/betzel.jpg
+
+    - first_name: Andrea
+      last_name: Avena-Koenigsberger
+      affiliation: Indiana University, US
+      website: http://scholar.google.com/
+      picture: images/experts/avena.png
 
     - first_name: Enrico
       last_name: Amico
@@ -69,7 +81,7 @@ experts:
       last_name: Ventresca
       affiliation: Purdue University
       website:
-      picture: images/experts/
+      picture: images/experts/ventresca.png
 
     - first_name: Mario
       last_name: Dzemidzic
@@ -81,7 +93,7 @@ experts:
       last_name: Sepulcre
       affiliation: Harvard University
       website:
-      picture: images/experts/
+      picture: images/experts/sepulcre.jpg
 
     - first_name: Diana
       last_name: Otero Svaldi
@@ -97,7 +109,7 @@ experts:
 
     - first_name: Emma
       last_name: Towlson
-      affiliation: Northeaster University
+      affiliation: Northeastern University
       website:
       picture: images/experts/towlson.jpg
 
