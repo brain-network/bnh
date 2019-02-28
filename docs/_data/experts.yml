@@ -56,13 +56,13 @@ experts:
     - first_name: Natalia
       last_name: Bielczyk
       affiliation: Radboud University Medical Centre, Netherlands
-      website: http://scholar.google.com/
+      website: https://www.nataliabielczyk.com/archive
       picture: images/experts/bielczyk.jpg
 
     - first_name: Manlio
       last_name: De Domenico
       affiliation: Fondazione Bruno Kessler, Italy
-      website: http://scholar.google.com/
+      website: https://comunelab.fbk.eu/manlio/index.php
       picture: images/experts/dedomenico.png
 
 #    - first_name: Richard
@@ -74,7 +74,7 @@ experts:
     - first_name: Mario
       last_name: Dzemidzic
       affiliation: School of Medicine </br> Indiana University
-      website: http://scholar.google.com/
+      website: https://medicine.iu.edu/faculty/2744/dzemidzic-mario/
       picture: images/experts/dzemidzic.jpg
 
     - first_name: Jaroslaw
