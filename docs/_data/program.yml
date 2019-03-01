@@ -10,20 +10,20 @@ days:
           description: "Joaqu&iacute;n Go<span>&#241;</span>i and Fabrizio De Vico Fallani"
           begin: "8:30"
           end: "9:00"
-        - title: Ignite talk 1
-          description: "Emma Towlson <i>Topic TBD</i>"
+        - title: Ignite talk
+          description: "<b>Emma Towlson</b> - <i>\"Introduction to Complex Networks & Controllability\"</i>"
           begin: "9:00"
           end: "9:20"
-        - title: Ignite talk 2
-          description: "Enrico Amico <i>Topic TBD</i>"
+        - title: Ignite talk
+          description: "<b>Enrico Amico</b> - <i>\"Brain Connectomics\"</i>"
           begin: "9:20"
           end: "9:40"
-        - title: Ignite talk 3
-          description: "Diana Otero Svaldi <i>Topic TBD</i>"
+        - title: Ignite talk
+          description: "<b>Diana Otero Svaldi</b> - <i>\"Clinical Applications of Brain Connectomics\"</i>"
           begin: "9:50"
           end: "10:10"
-        - title: Ignite talk 4
-          description: "Jorge Sepulcre <i>Topic TBD</i>"
+        - title: Ignite talk
+          description: "<b>Jorge Sepulcre</b> - <i>\"The functional organization of the Human Brain\"</i>"
           begin: "10:10"
           end: "10:30"
         - title: Coffee break
