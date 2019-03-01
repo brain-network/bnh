@@ -77,6 +77,12 @@ experts:
       website: https://medicine.iu.edu/faculty/2744/dzemidzic-mario/
       picture: images/experts/dzemidzic.jpg
 
+    - first_name: Sepideh
+      last_name: Friberg
+      affiliation: Beckman Institute, UIUC
+      website: https://connectlab.beckman.illinois.edu/
+      picture: images/experts/sepideh.jpg
+
     - first_name: Jaroslaw
       last_name: Harezlak
       affiliation: School of Public Health </br> Indiana University
