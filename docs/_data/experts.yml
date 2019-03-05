@@ -95,6 +95,12 @@ experts:
       website: http://www.maths.qmul.ac.uk/~vnicosia/
       picture: images/experts/nicosia.png
 
+    - first_name: Stephanie
+      last_name: Noble
+      affiliation: Yale University
+      website: https://www.linkedin.com/in/stephanie-noble-67214535/
+      picture: images/experts/noble.jpg
+
     - first_name: Jorge
       last_name: Sepulcre
       affiliation: Gordon Center for Medical Imaging </br> Harvard University
