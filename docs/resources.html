@@ -1,0 +1,26 @@
+---
+layout: left-sidebar
+title: Brainhack Nets - Resources
+---
+
+<section>
+
+    <header>
+        <h2>Resources</h2>
+    </header>
+    {% for p in site.data.resources %}
+        <div class="row 50%">
+          <div>
+            <div class="4u" style="float:left; margin-right: 20px">
+                <a class="image fit"><img src="{{ p.figure }}" alt="{{ p.title }} figure" /></a>
+            </div>
+                <h3>{{ p.title }}</h3>
+                <h4><i>{{p.author}}</i></h4>
+                <p style="margin-bottom: 0.25em;">{{ p.description }}</p>
+                <!-- <a href="/projects/{{ p.title | slugify }}" class="button small">
+                    <span class="fa fa-plus" <="" span=""></span> details
+                </a> -->
+            </div>
+        </div>
+    {% endfor %}
+</section>

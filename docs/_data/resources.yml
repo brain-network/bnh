@@ -1,0 +1,29 @@
+- title: "#101Nights"
+  author: Guillaume Dumas
+  description: "#101Nights emanated from Dream Sessions. It confront the subjective dreams perception of the artist Nathalie Regard with an objective, quantitative analysis, through brain recordings, seeking to establish a bridge between these two dimensions. Here we will take all the data from the 101 nights recorded, convert them into BIDS format, and extract physiological markers. We will also analyze the text of all the dream reports and daily logs of Nathalie. Finally, we will try to build a neurophenomenological network reflecting the performance."
+  figure: images/projects/101nights.jpg
+  external_link: "http://dreamsessions.org/101nights.html"
+
+- title: "Spatio-temporal dynamics of brain network connectivity"
+  author: Nicolas Farrugia
+  description: "The goal of this project is to opensource ongoing efforts to estimate various aspects of dynamic connectivity analysis. As a starting point, we will provide (1a) a set of functions that use sklearn, nilearn, bct (+numpy, scipy, nistats,...) that can be used to estimate dynamics states with various connectivity metrics, sliding windows and clustering algorithms (1b) as well as decomposition methods (ICA, dictionary learning), (2) simple methods to calculate null statistical models using bootstrapping procedures, (3) dynamic graph theory metrics, and (4) basic visualizations. We encourage researchers to join us in order to either help building the examples, or contribute with new methods, or test our methods on their own data."
+  figure: images/projects/nilearn-logo.png
+  external_link: "https://brainhack.slack.com/archives/C986B0Q3Z/p1522081166000273"
+
+- title: "Functional connectivity fingerprinting: maximizing identifiability in human functional connectomes"
+  author: Enrico Amico
+  description: "The concept of identifiability based on brain connectivity is very new (Finn et al. Nature Neuroscience 2015). Most recently, we made a significant step forward on this topic by introducing a data-driven method for optimal reconstruction of individual functional connectivity patterns that retrieves hidden identifiability from the data (Amico and Goñi, Scientific Reports (in press) 2018). In this Hackathon project we will cover the concept of fingerprinting on human brain data. In particular, we will provide sample functional connectivity data and guide you to the procedure for maximizing identifiability. Participants are welcome to bring and work on their own functional connectivity data. Resting-state or task-based data are welcome, as well as healthy or diseased population (fully processed; please note that fMRI processing is not a topic of this project :) ). If your dataset only has one fMRI run per subject, we can `create` test-retest sessions by splitting the run into first and second half and getting the FCs on each half. Link to the most relevant paper for this project is below:"
+  figure: images/projects/fc-fingerprinting.png
+  external_link: "https://arxiv.org/abs/1707.02365"
+
+- title: "Trends in the resting brain"
+  author: Natalia Bielczyk
+  description: "Resting state brain dynamics is a well studied subject in connectomics. However, most of the resting state research is dedicated to studying (functional) connectivity in resting state networks under different conditions, while little is known about the resting state dynamics itself. According to the common view in the field, resting state fluctuations are random or pseudo-random, as they reflect cognitive processes that we cannot control or understand. But are they random indeed? In this interdisciplinary project, we will ask the question: can the resting state activity at a given time point be predicted from the previous data points? Furthermore, can the information coming from other nodes in the network, effectively improve this prediction of the activity in a given node (potentially pointing to some causal links in the underlying network structures)? Or perhaps, are global properties of the network (such as mean activity across all the nodes) more predictable than local activity within the nodes? Firstly, we will approach our research questions by performing a classic data-driven study with use of deep learning. However, we will further extend our research by employing methods coming from another discipline. Resting state fluctuations in the joint activity of large populations of neurons come from a superposition between millions of pairwise interactions, in which an electric signal is passed from one neuron to another. These pairwise interactions are organized in streams of activity on many levels of organization. Therefore, next to the classic data-driven prediction, we will also use a parallel of the brain to the marketplace, or an exchange, and employ classic trend indicators used for trading in the stock exchange and currency markets."
+  figure: images/projects/picture_proposal_Bielczyk.png
+  external_link: "https://www.overleaf.com/read/ghwtqnnkqpft"
+
+- title: "Multi-layer networks based predictions"
+  author: Jeremy Guillon
+  description: "Play with our open datasets to predict age, sex, diagnosis or scores to cognitive tests using only networks. The two provided datasets contain multimodal (dwMRI and fMRI) networks, or multi-frequency MEG-extracted functional networks. Datasets are in MATLAB format but can be easily imported in a Python environment. More details can be found in the following references: Battiston F. et al., Multiplex core-periphery organization of the human connectome. arXiv:1801.01913 (2017); Guillon J. et al. Loss of brain inter-frequency hubs in Alzheimer’s disease. Scientific Reports 7, 10879 (2017)."
+  figure: images/projects/multiplex.png
+  external_link: "http://umcd.humanconnectomeproject.org/"
