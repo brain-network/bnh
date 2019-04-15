@@ -1,3 +1,8 @@
+- title: "The quest for identifiability in human functional connectomes"
+  author: Enrico Amico, Joaquín Goñi
+  description: "The evaluation of the individual “fingerprint” of a human functional connectome (FC) is becoming a promising avenue for neuroscientific research, due to its enormous potential inherent to drawing single subject inferences from functional connectivity profiles. Here we show that the individual fingerprint of a human functional connectome can be maximized from a reconstruction procedure based on group-wise decomposition in a finite number of brain connectivity modes. We use data from the Human Connectome Project to demonstrate that the optimal reconstruction of the individual FCs through connectivity eigenmodes maximizes subject identifiability across resting-state and all seven tasks evaluated."
+  external_link: https://www.nature.com/articles/s41598-018-25089-1
+
 - title: "Influences on the Test–Retest Reliability of Functional Connectivity MRI and its Relationship with Behavioral Utility"
   author: Stephanie Noble, Marisa N Spann, Fuyuze Tokoglu, Xilin Shen, R Todd Constable, Dustin Scheinost
   description: "Best practices are currently being developed for the acquisition and processing of resting-state magnetic resonance imaging data used to estimate brain functional organization—or “functional connectivity.” Standards have been proposed based on test–retest reliability, but open questions remain. These include how amount of data per subject influences whole-brain reliability, the influence of increasing runs versus sessions, the spatial distribution of reliability, the reliability of multivariate methods, and, crucially, how reliability maps onto prediction of behavior."
@@ -18,7 +23,32 @@
   description: "Establishing brain-behavior associations that map brain organization to phenotypic measures and generalize to novel individuals remains a challenge in neuroimaging. Predictive modeling approaches that define and validate models with independent datasets offer a solution to this problem. While these methods can detect novel and generalizable brain-behavior associations, they can be daunting, which has limited their use by the wider connectivity community."
   external_link: https://www.sciencedirect.com/science/article/pii/S1053811919301533
 
+- title: "A morphospace framework to assess cognitive flexibility based on brain functional networks"
+  author: Duy Duong-Tran, Enrico Amico, Bernat Corominas-Murtra, Mario Ventresca, Joaquín Goñi
+  description: "Unfolding how the brain functionally shifts within the cognitive space remains an unresolved question. From a brain connectivity perspective, there exist two main concepts: cognitive shifts and cognitive flexibility. Although the former is the proxy of the latter, the biggest challenge, in terms of bridging these two concepts, lies in the fact that cognitive shifts are governed by topological rules whereas cognitive flexibility is purely numerical."
+  external_link: https://arxiv.org/abs/1901.10962
+
+- title: "Centralized and distributed cognitive task processing in the human connectome"
+  author: Enrico Amico, Alex Arenas, Joaquín Goñi
+  description: "A key question in modern neuroscience is how cognitive changes in a human brain can bequantified and captured by functional connectivity (FC). A systematic approach to measurepairwise functional distance at different brain states is lacking. This would provide astraightforward way to quantify differences in cognitive processing across tasks; also, it wouldhelp in relating these differences in task-based FCs to the underlying structural network."
+  external_link: https://www.mitpressjournals.org/doi/pdf/10.1162/netn_a_00072
+
+- title: "Modeling communication processes in the human connectome through cooperative learning"
+  author: Uttara Tipnis, Enrico Amico, Mario Ventresca, Joaquın Goni
+  description: "Communication processes within the human brain at different cognitive states are neither well understood nor completelycharacterized. We assess communication processes in the human connectome using ant colony-inspired cooperative learningalgorithm, starting from a source with noa prioriinformation about the network topology, and cooperatively searching for the targetthrough a pheromone-inspired model. This framework relies on two parameters, namelypheromone perceptionandedge perception,to define the cognizance and subsequent behaviour of the ants on the network and, overall, the communication processes happeningbetween source and target node"
+  external_link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8513854
+
 - title: ""
   author:
-  description: ""
+  description:
+  external_link:
+
+- title: ""
+  author:
+  description:
+  external_link:
+
+- title: ""
+  author:
+  description:
   external_link:
