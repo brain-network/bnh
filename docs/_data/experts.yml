@@ -83,6 +83,12 @@ experts:
       website: https://connectlab.beckman.illinois.edu/
       picture: images/experts/sepideh.jpg
 
+    - first_name: Javier
+      last_name: Gonzalez-Castillo
+      affiliation: Functional Imaging Methods, Bethesda
+      website: https://fim.nimh.nih.gov/profiles/javier-gonzalez-castillo
+      picture: images/experts/castillo.jpg
+
     - first_name: Jaroslaw
       last_name: Harezlak
       affiliation: School of Public Health </br> Indiana University
