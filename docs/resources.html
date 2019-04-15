@@ -8,19 +8,23 @@ title: Brainhack Nets - Resources
     <header>
         <h2>Resources</h2>
     </header>
+    <ul>
     {% for p in site.data.resources %}
-        <div class="row 50%">
+        <!--<div class="row 50%">
           <div>
-            <div class="4u" style="float:left; margin-right: 20px">
+            <!--<div class="4u" style="float:left; margin-right: 20px">
                 <a class="image fit"><img src="{{ p.figure }}" alt="{{ p.title }} figure" /></a>
             </div>
                 <h3>{{ p.title }}</h3>
                 <h4><i>{{p.author}}</i></h4>
-                <p style="margin-bottom: 0.25em;">{{ p.description }}</p>
+                <p style="margin-bottom: 0.25em;">{{ p.description }} <a href = "{{p.external_link}}"> Explore Code </a></p>
                 <!-- <a href="/projects/{{ p.title | slugify }}" class="button small">
                     <span class="fa fa-plus" <="" span=""></span> details
-                </a> -->
+                </a>
             </div>
-        </div>
+        </div>-->
+
+        <li><a href="{{ p.external_link }}"><h3>{{ p.title }}</h3> </a></li>  
     {% endfor %}
+    </ul>
 </section>
