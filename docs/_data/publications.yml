@@ -1,0 +1,24 @@
+- title: "Influences on the Test–Retest Reliability of Functional Connectivity MRI and its Relationship with Behavioral Utility"
+  author: Stephanie Noble, Marisa N Spann, Fuyuze Tokoglu, Xilin Shen, R Todd Constable, Dustin Scheinost
+  description: "Best practices are currently being developed for the acquisition and processing of resting-state magnetic resonance imaging data used to estimate brain functional organization—or “functional connectivity.” Standards have been proposed based on test–retest reliability, but open questions remain. These include how amount of data per subject influences whole-brain reliability, the influence of increasing runs versus sessions, the spatial distribution of reliability, the reliability of multivariate methods, and, crucially, how reliability maps onto prediction of behavior."
+  external_link: https://academic.oup.com/cercor/article/27/11/5415/4139668
+
+- title: "Functional connectome fingerprinting and connectome-based predictive modeling (CPM)"
+  author: Emily S Finn, Xilin Shen, Dustin Scheinost, Monica D Rosenberg, Marvin M Chun, Xenophon Papademetris, R Todd Constable
+  description: "Functional magnetic resonance imaging (fMRI) studies typically collapse data from many subjects, but brain functional organization varies between individuals. Here we establish that this individual variability is both robust and reliable, using data from the Human Connectome Project to demonstrate that functional connectivity profiles act as a 'fingerprint' that can accurately identify subjects from a large group. Identification was successful across scan sessions and even between task and rest conditions, indicating that an individual's connectivity profile is intrinsic, and can be used to distinguish that individual regardless of how the brain is engaged during imaging."
+  external_link: https://www.nature.com/articles/nn.4135
+
+- title: "Using connectome-based predictive modeling to predict individual behavior from brain connectivity "
+  author: Xilin Shen, Emily S Finn, Dustin Scheinost, Monica D Rosenberg, Marvin M Chun, Xenophon Papademetris, R Todd Constable
+  description: "Neuroimaging is a fast-developing research area in which anatomical and functional images of human brains are collected using techniques such as functional magnetic resonance imaging (fMRI), diffusion tensor imaging (DTI), and electroencephalography (EEG). Technical advances and large-scale data sets have allowed for the development of models capable of predicting individual differences in traits and behavior using brain connectivity measures derived from neuroimaging data. Here, we present connectome-based predictive modeling (CPM), a data-driven protocol for developing predictive models of brain–behavior relationships from connectivity data using cross-validation."
+  external_link: https://experiments.springernature.com/articles/10.1038/nprot.2016.178
+
+- title: "Ten simple rules for predictive modeling of individual differences in neuroimaging"
+  author: Dustin Scheinost, Stephanie Noble, Corey Horien, Abigail S.Greene, Evelyn MR. Lake, Mehraveh Salehi, Siyuan Gao, Xilin Shen, David O'Connor, Daniel S.Barron, Sarah W.Yip, Monica D.Rosenberg, R. Todd Constable
+  description: "Establishing brain-behavior associations that map brain organization to phenotypic measures and generalize to novel individuals remains a challenge in neuroimaging. Predictive modeling approaches that define and validate models with independent datasets offer a solution to this problem. While these methods can detect novel and generalizable brain-behavior associations, they can be daunting, which has limited their use by the wider connectivity community."
+  external_link: https://www.sciencedirect.com/science/article/pii/S1053811919301533
+
+- title: ""
+  author:
+  description: ""
+  external_link:
