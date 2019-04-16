@@ -38,17 +38,22 @@
   description: "Communication processes within the human brain at different cognitive states are neither well understood nor completelycharacterized. We assess communication processes in the human connectome using ant colony-inspired cooperative learningalgorithm, starting from a source with noa prioriinformation about the network topology, and cooperatively searching for the targetthrough a pheromone-inspired model. This framework relies on two parameters, namelypheromone perceptionandedge perception,to define the cognizance and subsequent behaviour of the ants on the network and, overall, the communication processes happeningbetween source and target node"
   external_link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8513854
 
-- title: ""
-  author:
-  description:
-  external_link:
+- title: "Towards Subject and Diagnostic Identifiability in the Alzheimer’s Disease Spectrum Based on Functional Connectomes"
+  author: Diana O. Svaldi, Joaquín Goñi, Apoorva Bharthur Sanjay, Enrico Amico, Shannon L. Risacher, John D. West, Mario Dzemidzic, Andrew Saykin, Liana Apostolova
+  description: "Alzheimer’s disease (AD) is the only major cause of mortality in the world without an effective disease modifying treatment. Evidence supporting the so called “disconnection hypothesis” suggests that functional connectivity biomarkers may have clinical potential for early detection of AD. However, known issues with low test-retest reliability and signal to noise in functional connectivity may prevent accuracy and subsequent predictive capacity."
+  external_link: https://link.springer.com/chapter/10.1007%2F978-3-030-00689-1_8
 
-- title: ""
-  author:
-  description:
-  external_link:
+- title: "Uncovering multi-site identifiability based on resting-state functional connectomes"
+  author: Sumra Bari, Enrico Amico, Nicole Vike, Thomas M. Talavage, Joaquín Goñi
+  description: "Multi-site studies are becoming important to increase statistical power, enhance generalizability, and to improve the likelihood of pooling relevant subgroups together activities which are otherwise limited by the availability of patients or funds at a single site. Even with harmonized imaging sequences, site-dependent variability can mask the advantages of these multi-site studies. The aim of this study was to assess multi-site reproducibility in resting-state functional connectivity fingerprints, and to improve identifiability of obtained functional connectomes."
+  external_link: https://arxiv.org/abs/1809.08959
 
-- title: ""
-  author:
-  description:
-  external_link:
+- title: "Mapping hybrid functional-structural connectivity traits in the human connectome "
+  author: Enrico Amico, Joaquín Goñi
+  description: "One of the crucial questions in neuroscience is how a rich functional repertoire of brain states relates to its underlying structural organization. How to study the associations between these structural and functional layers is an open problem that involves novel conceptual ways of tackling this question. We here propose an extension of the Connectivity Independent Component Analysis (connICA) framework to identify joint structural-functional connectivity traits."
+  external_link: https://www.mitpressjournals.org/doi/full/10.1162/netn_a_00049
+
+- title: "Mapping the functional connectome traits of levels of consciousness"
+  author: Enrico Amico, Daniele Marinazzo, Carol Di Perri, Lizette Heine, Jitka Annen, Charlotte Martial, Mario Dzemidzi, Murielle Kirsch, Vincent Bonhomme, Steven Laureys, Joaquín Goñi
+  description: "Examining task-free functional connectivity (FC) in the human brain offers insights on how spontaneous integration and segregation of information relate to human cognition, and how this organization may be altered in different conditions, and neurological disorders. This is particularly relevant for patients in disorders of consciousness (DOC) following severe acquired brain damage and coma, one of the most devastating conditions in modern medical care. We present a novel data-driven methodology, connICA, which implements Independent Component Analysis (ICA) for the extraction of robust independent FC patterns (FC-traits) from a set of individual functional connectomes, without imposing any a priori data stratification into groups."
+  external_link: https://www.sciencedirect.com/science/article/pii/S1053811917300204
